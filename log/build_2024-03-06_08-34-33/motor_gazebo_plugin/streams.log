@@ -1,0 +1,83 @@
+[0.375s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.414s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.472s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[5.038s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In constructor ‘[01m[Kgazebo::MotorGazeboPlugin::MotorGazeboPlugin()[m[K’:
+[5.039s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:30:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ConveyorBeltPluginPrivate[m[K’ was not declared in this scope
+[5.039s]    43 |     : impl_(std::make_unique<[01;31m[KROS2ConveyorBeltPluginPrivate[m[K>())
+[5.039s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.039s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >()[m[K’
+[5.039s]    43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>([01;31m[K)[m[K)
+[5.039s]       |                                                             [01;31m[K^[m[K
+[5.039s] In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+[5.040s]                  from [01m[K/usr/include/boost/function/function_base.hpp:16[m[K,
+[5.040s]                  from [01m[K/usr/include/boost/function/detail/prologue.hpp:17[m[K,
+[5.040s]                  from [01m[K/usr/include/boost/function.hpp:30[m[K,
+[5.040s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[5.040s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[5.040s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:856:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[5.040s]   856 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[5.040s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[5.040s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:856:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.040s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.040s]    43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>([01;31m[K)[m[K)
+[5.040s]       |                                                             [01;31m[K^[m[K
+[5.041s] In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+[5.041s]                  from [01m[K/usr/include/boost/function/function_base.hpp:16[m[K,
+[5.041s]                  from [01m[K/usr/include/boost/function/detail/prologue.hpp:17[m[K,
+[5.041s]                  from [01m[K/usr/include/boost/function.hpp:30[m[K,
+[5.041s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[5.041s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[5.041s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:862:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[5.041s]   862 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[5.041s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[5.041s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:862:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.041s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.041s]    43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>([01;31m[K)[m[K)
+[5.042s]       |                                                             [01;31m[K^[m[K
+[5.042s] In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+[5.042s]                  from [01m[K/usr/include/boost/function/function_base.hpp:16[m[K,
+[5.042s]                  from [01m[K/usr/include/boost/function/detail/prologue.hpp:17[m[K,
+[5.042s]                  from [01m[K/usr/include/boost/function.hpp:30[m[K,
+[5.042s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[5.042s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[5.042s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:868:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ <deleted>
+[5.042s]   868 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[5.042s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[5.042s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:868:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.042s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.043s]    43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>([01;31m[K)[m[K)
+[5.043s]       |                                                             [01;31m[K^[m[K
+[5.043s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K At global scope:
+[5.043s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ElementPtr[m[K’ has not been declared
+[5.043s]    51 |     void MotorGazeboPlugin::Load(gazebo::physics::ModelPtr _model, [01;31m[Kstd[m[K::ElementPtr _sdf)
+[5.043s]       |                                                                    [01;31m[K^~~[m[K
+[5.043s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, int)[m[K’
+[5.043s]    51 |     void [01;31m[KMotorGazeboPlugin[m[K::Load(gazebo::physics::ModelPtr _model, std::ElementPtr _sdf)
+[5.043s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.043s] In file included from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:7[m[K:
+[5.043s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:19:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual void gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’
+[5.043s]    19 |         void [01;36m[KLoad[m[K(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf) override;
+[5.043s]       |              [01;36m[K^~~~[m[K
+[5.044s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:9:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPlugin[m[K’ defined here
+[5.044s]     9 |     class [01;36m[KMotorGazeboPlugin[m[K : public gazebo::ModelPlugin
+[5.044s]       |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.044s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+[5.044s]    79 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::Onupdate(){
+[5.044s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.044s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+[5.044s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+[5.044s]    14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+[5.044s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.044s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:96:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack(std_msgs::msg::Float32)[m[K’
+[5.045s]    96 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::SubCallBack(std_msgs::msg::Float32 msg_){
+[5.045s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.045s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:31:18:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack()[m[K’
+[5.045s]    31 |             void [01;36m[KSubCallBack[m[K();
+[5.045s]       |                  [01;36m[K^~~~~~~~~~~[m[K
+[5.045s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+[5.045s]    14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+[5.045s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.457s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[6.458s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[6.458s] make: *** [Makefile:141: all] Error 2
+[6.461s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12

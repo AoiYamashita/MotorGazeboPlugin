@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (motor_gazebo_plugin) JobQueued: {'identifier': 'motor_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.000184] (motor_gazebo_plugin) JobStarted: {'identifier': 'motor_gazebo_plugin'}
+[0.099881] (-) TimerEvent: {}
+[0.201789] (-) TimerEvent: {}
+[0.312342] (-) TimerEvent: {}
+[0.369259] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'cmake'}
+[0.370203] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'build'}
+[0.371170] (motor_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamashita/plugins/build/motor_gazebo_plugin', '--', '-j12', '-l12'], 'cwd': '/home/yamashita/plugins/build/motor_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('GIT_ASKPASS', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/pra_plugin/install/MotorPlugin/lib:/home/yamashita/pra_plugin/install/ros2_conveyorbelt/lib:/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/plugins/src/motor_gazebo_plugin'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2732a74d-fda2-4d8b-b078-d430f14d9504.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/pra_plugin/install:/home/yamashita/gazebo_ws/install:/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/4464_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-89fbb80393.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yamashita/plugins/build/motor_gazebo_plugin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib/python3.8/site-packages:/home/yamashita/gazebo_ws/install/ros2_first_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.413237] (-) TimerEvent: {}
+[0.414194] (motor_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_gazebo_plugin\x1b[0m\n'}
+[0.471600] (motor_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o\x1b[0m\n'}
+[0.514199] (-) TimerEvent: {}
+[0.618007] (-) TimerEvent: {}
+[0.726679] (-) TimerEvent: {}
+[0.833996] (-) TimerEvent: {}
+[0.940728] (-) TimerEvent: {}
+[1.049436] (-) TimerEvent: {}
+[1.158241] (-) TimerEvent: {}
+[1.266904] (-) TimerEvent: {}
+[1.375644] (-) TimerEvent: {}
+[1.484394] (-) TimerEvent: {}
+[1.593109] (-) TimerEvent: {}
+[1.701969] (-) TimerEvent: {}
+[1.810656] (-) TimerEvent: {}
+[1.919371] (-) TimerEvent: {}
+[2.026928] (-) TimerEvent: {}
+[2.135687] (-) TimerEvent: {}
+[2.244428] (-) TimerEvent: {}
+[2.353155] (-) TimerEvent: {}
+[2.461874] (-) TimerEvent: {}
+[2.570584] (-) TimerEvent: {}
+[2.679319] (-) TimerEvent: {}
+[2.788064] (-) TimerEvent: {}
+[2.896788] (-) TimerEvent: {}
+[3.005494] (-) TimerEvent: {}
+[3.112692] (-) TimerEvent: {}
+[3.221394] (-) TimerEvent: {}
+[3.330186] (-) TimerEvent: {}
+[3.438909] (-) TimerEvent: {}
+[3.547693] (-) TimerEvent: {}
+[3.648383] (-) TimerEvent: {}
+[3.755137] (-) TimerEvent: {}
+[3.855602] (-) TimerEvent: {}
+[3.960075] (-) TimerEvent: {}
+[4.064718] (-) TimerEvent: {}
+[4.169318] (-) TimerEvent: {}
+[4.273858] (-) TimerEvent: {}
+[4.378394] (-) TimerEvent: {}
+[4.480010] (-) TimerEvent: {}
+[4.584727] (-) TimerEvent: {}
+[4.685300] (-) TimerEvent: {}
+[4.789775] (-) TimerEvent: {}
+[4.890851] (-) TimerEvent: {}
+[4.993649] (-) TimerEvent: {}
+[5.038089] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kgazebo::MotorGazeboPlugin::MotorGazeboPlugin()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.038743] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2ConveyorBeltPluginPrivate\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.038827] (motor_gazebo_plugin) StderrLine: {'line': b'   43 |     : impl_(std::make_unique<\x1b[01;31m\x1b[KROS2ConveyorBeltPluginPrivate\x1b[m\x1b[K>())\n'}
+[5.038874] (motor_gazebo_plugin) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.038916] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_unique<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.038957] (motor_gazebo_plugin) StderrLine: {'line': b'   43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K)\n'}
+[5.039023] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.039471] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[5.039632] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function/function_base.hpp:16\x1b[m\x1b[K,\n'}
+[5.039736] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function/detail/prologue.hpp:17\x1b[m\x1b[K,\n'}
+[5.039825] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function.hpp:30\x1b[m\x1b[K,\n'}
+[5.039938] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24\x1b[m\x1b[K,\n'}
+[5.040020] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.040100] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.040186] (motor_gazebo_plugin) StderrLine: {'line': b'  856 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&... __args)\n'}
+[5.040269] (motor_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.040351] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.040434] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.040518] (motor_gazebo_plugin) StderrLine: {'line': b'   43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K)\n'}
+[5.040601] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.040680] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[5.040758] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function/function_base.hpp:16\x1b[m\x1b[K,\n'}
+[5.040840] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function/detail/prologue.hpp:17\x1b[m\x1b[K,\n'}
+[5.040923] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function.hpp:30\x1b[m\x1b[K,\n'}
+[5.041017] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24\x1b[m\x1b[K,\n'}
+[5.041100] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.041179] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:862:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.041259] (motor_gazebo_plugin) StderrLine: {'line': b'  862 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(size_t __num)\n'}
+[5.041338] (motor_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.041417] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:862:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.041497] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.041575] (motor_gazebo_plugin) StderrLine: {'line': b'   43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K)\n'}
+[5.041663] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.041745] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[5.041826] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function/function_base.hpp:16\x1b[m\x1b[K,\n'}
+[5.041910] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function/detail/prologue.hpp:17\x1b[m\x1b[K,\n'}
+[5.041993] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/function.hpp:30\x1b[m\x1b[K,\n'}
+[5.042075] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24\x1b[m\x1b[K,\n'}
+[5.042155] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.042240] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:868:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99 <deleted>\n'}
+[5.042328] (motor_gazebo_plugin) StderrLine: {'line': b'  868 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&...) = delete;\n'}
+[5.042407] (motor_gazebo_plugin) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.042485] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:868:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.042562] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:43:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.042641] (motor_gazebo_plugin) StderrLine: {'line': b'   43 |     : impl_(std::make_unique<ROS2ConveyorBeltPluginPrivate>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K)\n'}
+[5.042718] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.042797] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.042880] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::ElementPtr\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.042959] (motor_gazebo_plugin) StderrLine: {'line': b'   51 |     void MotorGazeboPlugin::Load(gazebo::physics::ModelPtr _model, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::ElementPtr _sdf)\n'}
+[5.043038] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.043117] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.043196] (motor_gazebo_plugin) StderrLine: {'line': b'   51 |     void \x1b[01;31m\x1b[KMotorGazeboPlugin\x1b[m\x1b[K::Load(gazebo::physics::ModelPtr _model, std::ElementPtr _sdf)\n'}
+[5.043275] (motor_gazebo_plugin) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.043353] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:7\x1b[m\x1b[K:\n'}
+[5.043431] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:19:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.043514] (motor_gazebo_plugin) StderrLine: {'line': b'   19 |         void \x1b[01;36m\x1b[KLoad\x1b[m\x1b[K(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf) override;\n'}
+[5.043599] (motor_gazebo_plugin) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.043679] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:9:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::MotorGazeboPlugin\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.043759] (motor_gazebo_plugin) StderrLine: {'line': b'    9 |     class \x1b[01;36m\x1b[KMotorGazeboPlugin\x1b[m\x1b[K : public gazebo::ModelPlugin\n'}
+[5.043838] (motor_gazebo_plugin) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.043915] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.043994] (motor_gazebo_plugin) StderrLine: {'line': b'   79 |     void \x1b[01;31m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K::Onupdate(){\n'}
+[5.044074] (motor_gazebo_plugin) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.044178] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.044289] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::MotorGazeboPluginPrivate\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.044412] (motor_gazebo_plugin) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K{\n'}
+[5.044498] (motor_gazebo_plugin) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.044578] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:96:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack(std_msgs::msg::Float32)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.044658] (motor_gazebo_plugin) StderrLine: {'line': b'   96 |     void \x1b[01;31m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K::SubCallBack(std_msgs::msg::Float32 msg_){\n'}
+[5.044811] (motor_gazebo_plugin) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.044898] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:31:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.044987] (motor_gazebo_plugin) StderrLine: {'line': b'   31 |             void \x1b[01;36m\x1b[KSubCallBack\x1b[m\x1b[K();\n'}
+[5.045066] (motor_gazebo_plugin) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.045147] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::MotorGazeboPluginPrivate\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.045231] (motor_gazebo_plugin) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K{\n'}
+[5.045311] (motor_gazebo_plugin) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.095161] (-) TimerEvent: {}
+[5.196550] (-) TimerEvent: {}
+[5.301029] (-) TimerEvent: {}
+[5.402749] (-) TimerEvent: {}
+[5.505222] (-) TimerEvent: {}
+[5.609043] (-) TimerEvent: {}
+[5.709911] (-) TimerEvent: {}
+[5.810732] (-) TimerEvent: {}
+[5.912789] (-) TimerEvent: {}
+[6.017067] (-) TimerEvent: {}
+[6.123446] (-) TimerEvent: {}
+[6.230169] (-) TimerEvent: {}
+[6.331232] (-) TimerEvent: {}
+[6.434812] (-) TimerEvent: {}
+[6.456918] (motor_gazebo_plugin) StderrLine: {'line': b'make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1\n'}
+[6.457748] (motor_gazebo_plugin) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2\n'}
+[6.457891] (motor_gazebo_plugin) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.458999] (motor_gazebo_plugin) CommandEnded: {'returncode': 2}
+[6.541200] (-) TimerEvent: {}
+[6.645553] (-) TimerEvent: {}
+[6.651248] (motor_gazebo_plugin) JobEnded: {'identifier': 'motor_gazebo_plugin', 'rc': 2}
+[6.662625] (-) EventReactorShutdown: {}

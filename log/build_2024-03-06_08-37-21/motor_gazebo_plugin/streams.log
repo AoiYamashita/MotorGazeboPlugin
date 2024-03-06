@@ -1,0 +1,85 @@
+[0.702s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.764s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.855s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[9.145s] In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+[9.145s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[9.145s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[9.145s] /usr/include/c++/9/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (gazebo::MotorGazeboPluginPrivate::*)(), gazebo::MotorGazeboPlugin*, const boost::arg<1>&>[m[K’:
+[9.146s] [01m[K/usr/include/c++/9/functional:787:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (gazebo::MotorGazeboPluginPrivate::*)(), gazebo::MotorGazeboPlugin*, const boost::arg<1>&>[m[K’
+[9.146s] [01m[K/usr/include/c++/9/functional:808:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (gazebo::MotorGazeboPluginPrivate::*)(); _BoundArgs = {gazebo::MotorGazeboPlugin*, const boost::arg<1>&}][m[K’
+[9.146s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:67:162:[m[K   required from here
+[9.146s] [01m[K/usr/include/c++/9/functional:775:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+[9.146s]   774 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+[9.146s]       |                               [01;31m[K~~~~~[m[K
+[9.146s]   775 | [01;31m[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+[9.146s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.146s]   776 | [01;31m[K      : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+[9.146s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.152s] In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+[9.153s]                  from [01m[K/usr/include/c++/9/map:61[m[K,
+[9.153s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+[9.153s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[9.153s] /usr/include/c++/9/tuple: In instantiation of ‘[01m[Kstruct std::tuple_element<0, std::tuple<> >[m[K’:
+[9.153s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:71:9:[m[K   required by substitution of ‘[01m[Ktemplate<class ReturnTypeT, class ... Args> template<long unsigned int N> using argument_type = typename std::tuple_element<N, std::tuple<_Args2 ...> >::type [with long unsigned int N = 0; ReturnTypeT = void; Args = {}][m[K’
+[9.153s] [01m[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:[m[K   required from ‘[01m[Kstruct rclcpp::subscription_traits::has_message_type<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))()>, std::allocator<void>, void, void, void, void>[m[K’
+[9.153s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:[m[K   required by substitution of ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))()>; AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>][m[K’
+[9.153s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:67:163:[m[K   required from here
+[9.153s] [01m[K/usr/include/c++/9/tuple:1303:25:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: tuple index is in range
+[9.154s]  1303 |       static_assert([01;31m[K__i < tuple_size<tuple<>>::value[m[K,
+[9.154s]       |                     [01;31m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.154s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:32[m[K,
+[9.154s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[9.154s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[9.155s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[9.155s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[9.155s] /opt/ros/foxy/include/rclcpp/function_traits.hpp: In substitution of ‘[01m[Ktemplate<class ReturnTypeT, class ... Args> template<long unsigned int N> using argument_type = typename std::tuple_element<N, std::tuple<_Args2 ...> >::type [with long unsigned int N = 0; ReturnTypeT = void; Args = {}][m[K’:
+[9.156s] [01m[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:[m[K   required from ‘[01m[Kstruct rclcpp::subscription_traits::has_message_type<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))()>, std::allocator<void>, void, void, void, void>[m[K’
+[9.156s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:[m[K   required by substitution of ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))()>; AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>][m[K’
+[9.156s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:67:163:[m[K   required from here
+[9.156s] [01m[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:71:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::tuple_element<0, std::tuple<> >[m[K’
+[9.156s]    71 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+[9.156s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[9.156s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[9.156s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:67:163:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo_ros::Node::create_subscription<std_msgs::msg::Float32>(const char [12], int, std::_Bind_helper<false, void (gazebo::MotorGazeboPluginPrivate::*)(), gazebo::MotorGazeboPlugin*, const boost::arg<1>&>::type)[m[K’
+[9.156s]    67 |         impl_->msg_sub_ = impl_->ros_node_->create_subscription<std_msgs::msg::Float32>("motor/speed",10,std::bind(&MotorGazeboPluginPrivate::SubCallBack,this,_1)[01;31m[K)[m[K;
+[9.157s]       |                                                                                                                                                                   [01;31m[K^[m[K
+[9.157s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[9.157s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[9.157s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[9.157s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[9.157s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[9.157s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[9.157s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[9.157s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.157s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[9.157s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:74:95:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ConveyorBeltPluginPrivate[m[K’ has not been declared
+[9.157s]    74 |         impl_->update_connection_ = gazebo::event::Events::ConnectWorldUpdateBegin(std::bind(&[01;31m[KROS2ConveyorBeltPluginPrivate[m[K::OnUpdate, impl_.get()));
+[9.157s]       |                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.157s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K At global scope:
+[9.157s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+[9.158s]    79 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::Onupdate(){
+[9.158s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.158s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+[9.158s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+[9.158s]    14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+[9.158s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.158s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:96:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack(std_msgs::msg::Float32)[m[K’
+[9.158s]    96 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::SubCallBack(std_msgs::msg::Float32 msg_){
+[9.158s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.158s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:31:18:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack()[m[K’
+[9.158s]    31 |             void [01;36m[KSubCallBack[m[K();
+[9.158s]       |                  [01;36m[K^~~~~~~~~~~[m[K
+[9.158s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+[9.158s]    14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+[9.158s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.240s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[11.240s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[11.241s] make: *** [Makefile:141: all] Error 2
+[11.244s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12

@@ -1,0 +1,421 @@
+[0.000000] (-) TimerEvent: {}
+[0.001008] (motor_gazebo_plugin) JobQueued: {'identifier': 'motor_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.001050] (motor_gazebo_plugin) JobStarted: {'identifier': 'motor_gazebo_plugin'}
+[0.101198] (-) TimerEvent: {}
+[0.203627] (-) TimerEvent: {}
+[0.305513] (-) TimerEvent: {}
+[0.336931] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'cmake'}
+[0.337758] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'build'}
+[0.339406] (motor_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamashita/plugins/build/motor_gazebo_plugin', '--', '-j12', '-l12'], 'cwd': '/home/yamashita/plugins/build/motor_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('GIT_ASKPASS', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/pra_plugin/install/MotorPlugin/lib:/home/yamashita/pra_plugin/install/ros2_conveyorbelt/lib:/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/plugins/src/motor_gazebo_plugin'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2732a74d-fda2-4d8b-b078-d430f14d9504.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/pra_plugin/install:/home/yamashita/gazebo_ws/install:/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/4464_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-89fbb80393.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yamashita/plugins/build/motor_gazebo_plugin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib/python3.8/site-packages:/home/yamashita/gazebo_ws/install/ros2_first_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.365075] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.382122] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.407596] (-) TimerEvent: {}
+[0.492333] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.509011] (-) TimerEvent: {}
+[0.536598] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[0.609708] (-) TimerEvent: {}
+[0.710640] (-) TimerEvent: {}
+[0.728765] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.731055] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.811521] (-) TimerEvent: {}
+[0.913295] (-) TimerEvent: {}
+[1.021199] (-) TimerEvent: {}
+[1.123983] (-) TimerEvent: {}
+[1.232661] (-) TimerEvent: {}
+[1.337175] (-) TimerEvent: {}
+[1.437945] (-) TimerEvent: {}
+[1.545549] (-) TimerEvent: {}
+[1.646251] (-) TimerEvent: {}
+[1.750400] (-) TimerEvent: {}
+[1.859346] (-) TimerEvent: {}
+[1.962652] (-) TimerEvent: {}
+[2.071522] (-) TimerEvent: {}
+[2.180427] (-) TimerEvent: {}
+[2.289347] (-) TimerEvent: {}
+[2.391182] (-) TimerEvent: {}
+[2.492542] (-) TimerEvent: {}
+[2.594628] (-) TimerEvent: {}
+[2.696951] (-) TimerEvent: {}
+[2.798158] (-) TimerEvent: {}
+[2.898695] (-) TimerEvent: {}
+[2.999547] (-) TimerEvent: {}
+[3.101404] (-) TimerEvent: {}
+[3.203342] (-) TimerEvent: {}
+[3.305381] (-) TimerEvent: {}
+[3.407027] (-) TimerEvent: {}
+[3.508024] (-) TimerEvent: {}
+[3.609164] (-) TimerEvent: {}
+[3.715076] (-) TimerEvent: {}
+[3.815912] (-) TimerEvent: {}
+[3.921749] (-) TimerEvent: {}
+[4.023775] (-) TimerEvent: {}
+[4.124170] (-) TimerEvent: {}
+[4.224503] (-) TimerEvent: {}
+[4.324963] (-) TimerEvent: {}
+[4.425492] (-) TimerEvent: {}
+[4.526916] (-) TimerEvent: {}
+[4.627625] (-) TimerEvent: {}
+[4.728441] (-) TimerEvent: {}
+[4.829360] (-) TimerEvent: {}
+[4.914761] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.930097] (-) TimerEvent: {}
+[4.950029] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.951594] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.031768] (-) TimerEvent: {}
+[5.132996] (-) TimerEvent: {}
+[5.234279] (-) TimerEvent: {}
+[5.335627] (-) TimerEvent: {}
+[5.437051] (-) TimerEvent: {}
+[5.538617] (-) TimerEvent: {}
+[5.639607] (-) TimerEvent: {}
+[5.740545] (-) TimerEvent: {}
+[5.841602] (-) TimerEvent: {}
+[5.881739] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[5.905394] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[5.906550] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.910502] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.911811] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.915815] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.916408] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.924816] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.924995] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.925797] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.926193] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.926360] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.926411] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.926448] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.926482] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.926527] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.926610] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.926659] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.926777] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.942936] (-) TimerEvent: {}
+[6.051600] (-) TimerEvent: {}
+[6.153583] (-) TimerEvent: {}
+[6.255589] (-) TimerEvent: {}
+[6.357549] (-) TimerEvent: {}
+[6.458531] (-) TimerEvent: {}
+[6.559769] (-) TimerEvent: {}
+[6.660835] (-) TimerEvent: {}
+[6.768540] (-) TimerEvent: {}
+[6.869417] (-) TimerEvent: {}
+[6.970426] (-) TimerEvent: {}
+[7.078180] (-) TimerEvent: {}
+[7.182574] (-) TimerEvent: {}
+[7.291471] (-) TimerEvent: {}
+[7.400405] (-) TimerEvent: {}
+[7.509276] (-) TimerEvent: {}
+[7.618193] (-) TimerEvent: {}
+[7.725965] (-) TimerEvent: {}
+[7.834625] (-) TimerEvent: {}
+[7.943273] (-) TimerEvent: {}
+[8.045365] (-) TimerEvent: {}
+[8.146379] (-) TimerEvent: {}
+[8.255193] (-) TimerEvent: {}
+[8.364499] (-) TimerEvent: {}
+[8.473371] (-) TimerEvent: {}
+[8.582121] (-) TimerEvent: {}
+[8.685779] (-) TimerEvent: {}
+[8.794522] (-) TimerEvent: {}
+[8.898904] (-) TimerEvent: {}
+[8.999776] (-) TimerEvent: {}
+[9.103468] (-) TimerEvent: {}
+[9.208971] (-) TimerEvent: {}
+[9.317968] (-) TimerEvent: {}
+[9.426898] (-) TimerEvent: {}
+[9.535800] (-) TimerEvent: {}
+[9.644804] (-) TimerEvent: {}
+[9.753614] (-) TimerEvent: {}
+[9.862430] (-) TimerEvent: {}
+[9.971257] (-) TimerEvent: {}
+[10.073804] (-) TimerEvent: {}
+[10.175334] (-) TimerEvent: {}
+[10.277479] (-) TimerEvent: {}
+[10.379776] (-) TimerEvent: {}
+[10.481399] (-) TimerEvent: {}
+[10.582586] (-) TimerEvent: {}
+[10.682963] (-) TimerEvent: {}
+[10.784960] (-) TimerEvent: {}
+[10.887007] (-) TimerEvent: {}
+[10.987789] (-) TimerEvent: {}
+[11.088671] (-) TimerEvent: {}
+[11.191431] (-) TimerEvent: {}
+[11.293119] (-) TimerEvent: {}
+[11.394984] (-) TimerEvent: {}
+[11.497056] (-) TimerEvent: {}
+[11.598418] (-) TimerEvent: {}
+[11.699346] (-) TimerEvent: {}
+[11.801179] (-) TimerEvent: {}
+[11.903793] (-) TimerEvent: {}
+[12.005799] (-) TimerEvent: {}
+[12.107357] (-) TimerEvent: {}
+[12.209656] (-) TimerEvent: {}
+[12.312114] (-) TimerEvent: {}
+[12.413903] (-) TimerEvent: {}
+[12.515768] (-) TimerEvent: {}
+[12.617963] (-) TimerEvent: {}
+[12.720408] (-) TimerEvent: {}
+[12.822014] (-) TimerEvent: {}
+[12.923725] (-) TimerEvent: {}
+[13.024229] (-) TimerEvent: {}
+[13.124816] (-) TimerEvent: {}
+[13.228136] (-) TimerEvent: {}
+[13.330654] (-) TimerEvent: {}
+[13.433339] (-) TimerEvent: {}
+[13.536388] (-) TimerEvent: {}
+[13.637804] (-) TimerEvent: {}
+[13.739408] (-) TimerEvent: {}
+[13.841146] (-) TimerEvent: {}
+[13.943277] (-) TimerEvent: {}
+[14.045967] (-) TimerEvent: {}
+[14.146709] (-) TimerEvent: {}
+[14.247507] (-) TimerEvent: {}
+[14.348349] (-) TimerEvent: {}
+[14.449042] (-) TimerEvent: {}
+[14.549822] (-) TimerEvent: {}
+[14.650904] (-) TimerEvent: {}
+[14.751833] (-) TimerEvent: {}
+[14.853890] (-) TimerEvent: {}
+[14.958650] (-) TimerEvent: {}
+[15.062956] (-) TimerEvent: {}
+[15.165907] (-) TimerEvent: {}
+[15.274703] (-) TimerEvent: {}
+[15.376019] (-) TimerEvent: {}
+[15.476560] (-) TimerEvent: {}
+[15.577402] (-) TimerEvent: {}
+[15.678161] (-) TimerEvent: {}
+[15.782375] (-) TimerEvent: {}
+[15.886182] (-) TimerEvent: {}
+[15.988867] (-) TimerEvent: {}
+[16.091074] (-) TimerEvent: {}
+[16.193929] (-) TimerEvent: {}
+[16.298592] (-) TimerEvent: {}
+[16.402766] (-) TimerEvent: {}
+[16.507275] (-) TimerEvent: {}
+[16.608245] (-) TimerEvent: {}
+[16.710085] (-) TimerEvent: {}
+[16.811774] (-) TimerEvent: {}
+[16.913804] (-) TimerEvent: {}
+[17.014985] (-) TimerEvent: {}
+[17.117150] (-) TimerEvent: {}
+[17.218204] (-) TimerEvent: {}
+[17.320950] (-) TimerEvent: {}
+[17.423700] (-) TimerEvent: {}
+[17.525555] (-) TimerEvent: {}
+[17.627569] (-) TimerEvent: {}
+[17.729854] (-) TimerEvent: {}
+[17.832331] (-) TimerEvent: {}
+[17.934086] (-) TimerEvent: {}
+[18.036087] (-) TimerEvent: {}
+[18.138208] (-) TimerEvent: {}
+[18.240797] (-) TimerEvent: {}
+[18.343617] (-) TimerEvent: {}
+[18.446557] (-) TimerEvent: {}
+[18.548939] (-) TimerEvent: {}
+[18.651380] (-) TimerEvent: {}
+[18.753925] (-) TimerEvent: {}
+[18.855770] (-) TimerEvent: {}
+[18.957799] (-) TimerEvent: {}
+[19.060146] (-) TimerEvent: {}
+[19.162770] (-) TimerEvent: {}
+[19.263282] (-) TimerEvent: {}
+[19.363805] (-) TimerEvent: {}
+[19.465890] (-) TimerEvent: {}
+[19.568033] (-) TimerEvent: {}
+[19.668466] (-) TimerEvent: {}
+[19.770764] (-) TimerEvent: {}
+[19.873557] (-) TimerEvent: {}
+[19.976388] (-) TimerEvent: {}
+[20.078713] (-) TimerEvent: {}
+[20.180050] (-) TimerEvent: {}
+[20.281672] (-) TimerEvent: {}
+[20.383524] (-) TimerEvent: {}
+[20.466957] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[20.467468] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.5.0\n'}
+[20.467846] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[20.484906] (-) TimerEvent: {}
+[20.585399] (-) TimerEvent: {}
+[20.686033] (-) TimerEvent: {}
+[20.788218] (-) TimerEvent: {}
+[20.890605] (-) TimerEvent: {}
+[20.992881] (-) TimerEvent: {}
+[21.098319] (-) TimerEvent: {}
+[21.201145] (-) TimerEvent: {}
+[21.302221] (-) TimerEvent: {}
+[21.402566] (-) TimerEvent: {}
+[21.503636] (-) TimerEvent: {}
+[21.604103] (-) TimerEvent: {}
+[21.620080] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[21.623836] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[21.634420] (motor_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[21.667399] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[21.677441] (motor_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[21.701673] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[21.701879] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[21.704471] (-) TimerEvent: {}
+[21.813107] (-) TimerEvent: {}
+[21.921961] (-) TimerEvent: {}
+[22.030300] (-) TimerEvent: {}
+[22.139226] (-) TimerEvent: {}
+[22.248140] (-) TimerEvent: {}
+[22.356956] (-) TimerEvent: {}
+[22.463769] (-) TimerEvent: {}
+[22.572578] (-) TimerEvent: {}
+[22.676872] (-) TimerEvent: {}
+[22.785884] (-) TimerEvent: {}
+[22.889233] (-) TimerEvent: {}
+[22.991857] (-) TimerEvent: {}
+[23.093826] (-) TimerEvent: {}
+[23.101174] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[23.101892] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[23.105597] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[23.115150] (motor_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[23.140298] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[23.140626] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[23.140874] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[23.140990] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[23.141032] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[23.194166] (-) TimerEvent: {}
+[23.295088] (-) TimerEvent: {}
+[23.335947] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[23.336372] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.17.0\n'}
+[23.336656] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[23.336841] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[23.338035] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.9.1\n'}
+[23.338293] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[23.395451] (-) TimerEvent: {}
+[23.497656] (-) TimerEvent: {}
+[23.577485] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[23.586993] (motor_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[23.598591] (-) TimerEvent: {}
+[23.612666] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[23.626277] (motor_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[23.654232] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[23.654538] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[23.654711] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[23.655715] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.14\n'}
+[23.660133] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)\n'}
+[23.700076] (-) TimerEvent: {}
+[23.802640] (-) TimerEvent: {}
+[23.849923] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[23.850643] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[23.851408] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yamashita/plugins/src/motor_gazebo_plugin/include\n'}
+[23.851489] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[23.852247] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[23.852726] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[23.853073] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[23.853655] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[23.853746] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[23.854100] (motor_gazebo_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[23.857038] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.876681] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[23.905115] (-) TimerEvent: {}
+[23.914777] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/yamashita/plugins/build/motor_gazebo_plugin\n'}
+[23.942335] (motor_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_gazebo_plugin\x1b[0m\n'}
+[23.988445] (motor_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o\x1b[0m\n'}
+[24.005690] (-) TimerEvent: {}
+[24.107764] (-) TimerEvent: {}
+[24.209449] (-) TimerEvent: {}
+[24.310778] (-) TimerEvent: {}
+[24.415179] (-) TimerEvent: {}
+[24.515895] (-) TimerEvent: {}
+[24.617405] (-) TimerEvent: {}
+[24.718905] (-) TimerEvent: {}
+[24.820367] (-) TimerEvent: {}
+[24.921404] (-) TimerEvent: {}
+[25.022645] (-) TimerEvent: {}
+[25.123876] (-) TimerEvent: {}
+[25.225971] (-) TimerEvent: {}
+[25.326477] (-) TimerEvent: {}
+[25.427325] (-) TimerEvent: {}
+[25.528130] (-) TimerEvent: {}
+[25.629003] (-) TimerEvent: {}
+[25.730503] (-) TimerEvent: {}
+[25.832146] (-) TimerEvent: {}
+[25.932601] (-) TimerEvent: {}
+[26.033629] (-) TimerEvent: {}
+[26.135517] (-) TimerEvent: {}
+[26.237611] (-) TimerEvent: {}
+[26.339974] (-) TimerEvent: {}
+[26.440631] (-) TimerEvent: {}
+[26.542503] (-) TimerEvent: {}
+[26.642835] (-) TimerEvent: {}
+[26.744836] (-) TimerEvent: {}
+[26.845795] (-) TimerEvent: {}
+[26.947930] (-) TimerEvent: {}
+[27.050352] (-) TimerEvent: {}
+[27.152870] (-) TimerEvent: {}
+[27.254728] (-) TimerEvent: {}
+[27.356936] (-) TimerEvent: {}
+[27.457675] (-) TimerEvent: {}
+[27.558474] (-) TimerEvent: {}
+[27.659434] (-) TimerEvent: {}
+[27.760390] (-) TimerEvent: {}
+[27.861425] (-) TimerEvent: {}
+[27.963239] (-) TimerEvent: {}
+[28.065249] (-) TimerEvent: {}
+[28.167419] (-) TimerEvent: {}
+[28.218168] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:32\x1b[m\x1b[K,\n'}
+[28.218372] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[28.218424] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[28.218459] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[28.218496] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[28.218528] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[28.218559] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[28.218589] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[28.218620] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[28.218651] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[28.218681] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18\x1b[m\x1b[K,\n'}
+[28.218713] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4\x1b[m\x1b[K:\n'}
+[28.218742] (motor_gazebo_plugin) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<void (gazebo::MotorGazeboPluginPrivate::*)(std_msgs::msg::Float32_<std::allocator<void> >)>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.218775] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::subscription_traits::has_message_type<void (gazebo::MotorGazeboPluginPrivate::*)(std_msgs::msg::Float32_<std::allocator<void> >), std::allocator<void>, void, void, void, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.218809] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = void (gazebo::MotorGazeboPluginPrivate::*)(std_msgs::msg::Float32_<std::allocator<void> >); AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.218848] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:145:\x1b[m\x1b[K   required from here\n'}
+[28.218878] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperator()\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvoid (gazebo::MotorGazeboPluginPrivate::*)(std_msgs::msg::Float32_<std::allocator<void> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.218908] (motor_gazebo_plugin) StderrLine: {'line': b'   52 |     typename function_traits<decltype( \x1b[01;31m\x1b[K&FunctionT::operator()\x1b[m\x1b[K)>::arguments>::type;\n'}
+[28.218938] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.218968] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperator()\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvoid (gazebo::MotorGazeboPluginPrivate::*)(std_msgs::msg::Float32_<std::allocator<void> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.218999] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperator()\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvoid (gazebo::MotorGazeboPluginPrivate::*)(std_msgs::msg::Float32_<std::allocator<void> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.221864] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.222034] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:145:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgazebo_ros::Node::create_subscription<std_msgs::msg::Float32>(const char [13], int, void (gazebo::MotorGazeboPluginPrivate::*)(std_msgs::msg::Float32))\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.222081] (motor_gazebo_plugin) StderrLine: {'line': b'   66 |         impl_->msg_sub_ = impl_->ros_node_->create_subscription<std_msgs::msg::Float32>("/motor/speed",10,&MotorGazeboPluginPrivate::SubCallBack\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[28.222121] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[28.222158] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[28.222191] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[28.222223] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[28.222267] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18\x1b[m\x1b[K,\n'}
+[28.222308] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4\x1b[m\x1b[K:\n'}
+[28.222340] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[28.222376] (motor_gazebo_plugin) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[28.222409] (motor_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.222439] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[28.268835] (-) TimerEvent: {}
+[28.370449] (-) TimerEvent: {}
+[28.471616] (-) TimerEvent: {}
+[28.573000] (-) TimerEvent: {}
+[28.675238] (-) TimerEvent: {}
+[28.777540] (-) TimerEvent: {}
+[28.879281] (-) TimerEvent: {}
+[28.981331] (-) TimerEvent: {}
+[29.083198] (-) TimerEvent: {}
+[29.185126] (-) TimerEvent: {}
+[29.286763] (-) TimerEvent: {}
+[29.389150] (-) TimerEvent: {}
+[29.490111] (-) TimerEvent: {}
+[29.591455] (-) TimerEvent: {}
+[29.695335] (-) TimerEvent: {}
+[29.800243] (-) TimerEvent: {}
+[29.903038] (-) TimerEvent: {}
+[30.005547] (-) TimerEvent: {}
+[30.112137] (-) TimerEvent: {}
+[30.213588] (-) TimerEvent: {}
+[30.321842] (-) TimerEvent: {}
+[30.397256] (motor_gazebo_plugin) StderrLine: {'line': b'make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1\n'}
+[30.397979] (motor_gazebo_plugin) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2\n'}
+[30.398125] (motor_gazebo_plugin) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[30.400218] (motor_gazebo_plugin) CommandEnded: {'returncode': 2}
+[30.422842] (-) TimerEvent: {}
+[30.527314] (-) TimerEvent: {}
+[30.628440] (-) TimerEvent: {}
+[30.694701] (motor_gazebo_plugin) JobEnded: {'identifier': 'motor_gazebo_plugin', 'rc': 2}
+[30.706399] (-) EventReactorShutdown: {}

@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (motor_gazebo_plugin) JobQueued: {'identifier': 'motor_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.000763] (motor_gazebo_plugin) JobStarted: {'identifier': 'motor_gazebo_plugin'}
+[0.103064] (-) TimerEvent: {}
+[0.204515] (-) TimerEvent: {}
+[0.307388] (-) TimerEvent: {}
+[0.325570] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'cmake'}
+[0.327223] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'build'}
+[0.327287] (motor_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamashita/plugins/build/motor_gazebo_plugin', '--', '-j12', '-l12'], 'cwd': '/home/yamashita/plugins/build/motor_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('GIT_ASKPASS', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/pra_plugin/install/MotorPlugin/lib:/home/yamashita/pra_plugin/install/ros2_conveyorbelt/lib:/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/plugins/src/motor_gazebo_plugin'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2732a74d-fda2-4d8b-b078-d430f14d9504.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/pra_plugin/install:/home/yamashita/gazebo_ws/install:/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/4464_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-89fbb80393.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yamashita/plugins/build/motor_gazebo_plugin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib/python3.8/site-packages:/home/yamashita/gazebo_ws/install/ros2_first_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.370833] (motor_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_gazebo_plugin\x1b[0m\n'}
+[0.408174] (-) TimerEvent: {}
+[0.421701] (motor_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o\x1b[0m\n'}
+[0.508844] (-) TimerEvent: {}
+[0.609737] (-) TimerEvent: {}
+[0.713335] (-) TimerEvent: {}
+[0.813831] (-) TimerEvent: {}
+[0.915821] (-) TimerEvent: {}
+[1.016602] (-) TimerEvent: {}
+[1.118058] (-) TimerEvent: {}
+[1.218877] (-) TimerEvent: {}
+[1.319674] (-) TimerEvent: {}
+[1.420627] (-) TimerEvent: {}
+[1.522497] (-) TimerEvent: {}
+[1.623168] (-) TimerEvent: {}
+[1.723592] (-) TimerEvent: {}
+[1.824169] (-) TimerEvent: {}
+[1.924964] (-) TimerEvent: {}
+[2.026320] (-) TimerEvent: {}
+[2.127843] (-) TimerEvent: {}
+[2.229488] (-) TimerEvent: {}
+[2.332062] (-) TimerEvent: {}
+[2.441546] (-) TimerEvent: {}
+[2.546099] (-) TimerEvent: {}
+[2.652188] (-) TimerEvent: {}
+[2.758657] (-) TimerEvent: {}
+[2.864602] (-) TimerEvent: {}
+[2.970776] (-) TimerEvent: {}
+[3.077136] (-) TimerEvent: {}
+[3.183406] (-) TimerEvent: {}
+[3.283821] (-) TimerEvent: {}
+[3.389709] (-) TimerEvent: {}
+[3.495899] (-) TimerEvent: {}
+[3.598171] (-) TimerEvent: {}
+[3.699031] (-) TimerEvent: {}
+[3.800073] (-) TimerEvent: {}
+[3.903501] (-) TimerEvent: {}
+[4.003919] (-) TimerEvent: {}
+[4.104494] (-) TimerEvent: {}
+[4.204981] (-) TimerEvent: {}
+[4.305606] (-) TimerEvent: {}
+[4.406369] (-) TimerEvent: {}
+[4.508867] (-) TimerEvent: {}
+[4.609912] (-) TimerEvent: {}
+[4.713925] (-) TimerEvent: {}
+[4.817092] (-) TimerEvent: {}
+[4.923307] (-) TimerEvent: {}
+[5.023945] (-) TimerEvent: {}
+[5.077030] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/function.hpp:23\x1b[m\x1b[K,\n'}
+[5.077470] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24\x1b[m\x1b[K,\n'}
+[5.077586] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.077668] (motor_gazebo_plugin) StderrLine: {'line': b'/usr/include/c++/9/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (gazebo::MotorGazeboPluginPrivate::*)(), gazebo::MotorGazeboPlugin*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.077746] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:787:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (gazebo::MotorGazeboPluginPrivate::*)(), gazebo::MotorGazeboPlugin*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.077834] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:808:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (gazebo::MotorGazeboPluginPrivate::*)(); _BoundArgs = {gazebo::MotorGazeboPlugin*, const std::_Placeholder<1>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.077926] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:181:\x1b[m\x1b[K   required from here\n'}
+[5.078025] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:775:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[5.078134] (motor_gazebo_plugin) StderrLine: {'line': b'  774 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[5.078210] (motor_gazebo_plugin) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[5.078284] (motor_gazebo_plugin) StderrLine: {'line': b'  775 | \x1b[01;31m\x1b[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[5.078356] (motor_gazebo_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.078429] (motor_gazebo_plugin) StderrLine: {'line': b'  776 | \x1b[01;31m\x1b[K      : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[5.078500] (motor_gazebo_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.082544] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_map.h:63\x1b[m\x1b[K,\n'}
+[5.082739] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/map:61\x1b[m\x1b[K,\n'}
+[5.082825] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21\x1b[m\x1b[K,\n'}
+[5.082902] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1\x1b[m\x1b[K:\n'}
+[5.082977] (motor_gazebo_plugin) StderrLine: {'line': b'/usr/include/c++/9/tuple: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::tuple_element<0, std::tuple<> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.083098] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:71:9:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ReturnTypeT, class ... Args> template<long unsigned int N> using argument_type = typename std::tuple_element<N, std::tuple<_Args2 ...> >::type [with long unsigned int N = 0; ReturnTypeT = void; Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.083197] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::subscription_traits::has_message_type<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, std::_Placeholder<1>))()>, std::allocator<void>, void, void, void, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.083283] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, std::_Placeholder<1>))()>; AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.083382] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:182:\x1b[m\x1b[K   required from here\n'}
+[5.083456] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/tuple:1303:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: tuple index is in range\n'}
+[5.083568] (motor_gazebo_plugin) StderrLine: {'line': b' 1303 |       static_assert(\x1b[01;31m\x1b[K__i < tuple_size<tuple<>>::value\x1b[m\x1b[K,\n'}
+[5.083652] (motor_gazebo_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.083770] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:32\x1b[m\x1b[K,\n'}
+[5.083855] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.083928] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.084001] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.084073] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.084144] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.084216] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.084286] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[5.084357] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.084429] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.084501] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18\x1b[m\x1b[K,\n'}
+[5.084574] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4\x1b[m\x1b[K:\n'}
+[5.084646] (motor_gazebo_plugin) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/function_traits.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ReturnTypeT, class ... Args> template<long unsigned int N> using argument_type = typename std::tuple_element<N, std::tuple<_Args2 ...> >::type [with long unsigned int N = 0; ReturnTypeT = void; Args = {}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.084738] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::subscription_traits::has_message_type<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, std::_Placeholder<1>))()>, std::allocator<void>, void, void, void, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.084859] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, std::_Placeholder<1>))()>; AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.084956] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:182:\x1b[m\x1b[K   required from here\n'}
+[5.085031] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:71:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::tuple_element<0, std::tuple<> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.085117] (motor_gazebo_plugin) StderrLine: {'line': b'   71 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[5.085189] (motor_gazebo_plugin) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.085260] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.085332] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:182:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgazebo_ros::Node::create_subscription<std_msgs::msg::Float32>(const char [12], int, std::_Bind_helper<false, void (gazebo::MotorGazeboPluginPrivate::*)(), gazebo::MotorGazeboPlugin*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.085411] (motor_gazebo_plugin) StderrLine: {'line': b'   66 | ->ros_node_->create_subscription<std_msgs::msg::Float32>("motor/speed",10,std::bind(&MotorGazeboPluginPrivate::SubCallBack,this,std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.085483] (motor_gazebo_plugin) StderrLine: {'line': b'      |                                                                                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.085554] (motor_gazebo_plugin) StderrLine: {'line': b'\n'}
+[5.085622] (motor_gazebo_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.085696] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.085766] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.085836] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18\x1b[m\x1b[K,\n'}
+[5.085949] (motor_gazebo_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4\x1b[m\x1b[K:\n'}
+[5.086022] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.086107] (motor_gazebo_plugin) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[5.086175] (motor_gazebo_plugin) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.086242] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[5.086600] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.086715] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:78:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.086794] (motor_gazebo_plugin) StderrLine: {'line': b'   78 |     void \x1b[01;31m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K::Onupdate(){\n'}
+[5.086870] (motor_gazebo_plugin) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.087165] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:78:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.087258] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::MotorGazeboPluginPrivate\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.087337] (motor_gazebo_plugin) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K{\n'}
+[5.087413] (motor_gazebo_plugin) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.087489] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:95:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack(std_msgs::msg::Float32)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.087562] (motor_gazebo_plugin) StderrLine: {'line': b'   95 |     void \x1b[01;31m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K::SubCallBack(std_msgs::msg::Float32 msg_){\n'}
+[5.087632] (motor_gazebo_plugin) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.087700] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:31:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.087768] (motor_gazebo_plugin) StderrLine: {'line': b'   31 |             void \x1b[01;36m\x1b[KSubCallBack\x1b[m\x1b[K();\n'}
+[5.087847] (motor_gazebo_plugin) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.087915] (motor_gazebo_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass gazebo::MotorGazeboPluginPrivate\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[5.087985] (motor_gazebo_plugin) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KMotorGazeboPluginPrivate\x1b[m\x1b[K{\n'}
+[5.088052] (motor_gazebo_plugin) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.127300] (-) TimerEvent: {}
+[5.232333] (-) TimerEvent: {}
+[5.334373] (-) TimerEvent: {}
+[5.437253] (-) TimerEvent: {}
+[5.545387] (-) TimerEvent: {}
+[5.646401] (-) TimerEvent: {}
+[5.752372] (-) TimerEvent: {}
+[5.853180] (-) TimerEvent: {}
+[5.959362] (-) TimerEvent: {}
+[6.066085] (-) TimerEvent: {}
+[6.172638] (-) TimerEvent: {}
+[6.273116] (-) TimerEvent: {}
+[6.378842] (-) TimerEvent: {}
+[6.485334] (-) TimerEvent: {}
+[6.591798] (-) TimerEvent: {}
+[6.697931] (-) TimerEvent: {}
+[6.804244] (-) TimerEvent: {}
+[6.910526] (-) TimerEvent: {}
+[7.013023] (-) TimerEvent: {}
+[7.115178] (-) TimerEvent: {}
+[7.165975] (motor_gazebo_plugin) StderrLine: {'line': b'make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1\n'}
+[7.166253] (motor_gazebo_plugin) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2\n'}
+[7.166626] (motor_gazebo_plugin) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.168014] (motor_gazebo_plugin) CommandEnded: {'returncode': 2}
+[7.216111] (-) TimerEvent: {}
+[7.318918] (-) TimerEvent: {}
+[7.354785] (motor_gazebo_plugin) JobEnded: {'identifier': 'motor_gazebo_plugin', 'rc': 2}
+[7.365655] (-) EventReactorShutdown: {}

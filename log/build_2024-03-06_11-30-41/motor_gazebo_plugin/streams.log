@@ -1,0 +1,11 @@
+[0.746s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.794s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.852s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[5.122s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPlugin::SubCallBack(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[5.122s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:94:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class gazebo::MotorGazeboPlugin[m[K’ has no member named ‘[01m[Kmotor_velocity_[m[K’
+[5.122s]    94 |         *(this->[01;31m[Kmotor_velocity_[m[K) = (double)msg_->data;
+[5.122s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[7.921s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[7.922s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[7.922s] make: *** [Makefile:141: all] Error 2
+[7.928s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12

@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ElementPtr[m[K’ has not been declared
+   51 |     void MotorGazeboPlugin::Load(gazebo::physics::ModelPtr _model, [01;31m[Kstd[m[K::ElementPtr _sdf)
+      |                                                                    [01;31m[K^~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, int)[m[K’
+   51 |     void [01;31m[KMotorGazeboPlugin[m[K::Load(gazebo::physics::ModelPtr _model, std::ElementPtr _sdf)
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:7[m[K:
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:19:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual void gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’
+   19 |         void [01;36m[KLoad[m[K(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf) override;
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:9:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPlugin[m[K’ defined here
+    9 |     class [01;36m[KMotorGazeboPlugin[m[K : public gazebo::ModelPlugin
+      |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+   79 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::Onupdate(){
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+   14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:96:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack(std_msgs::msg::Float32)[m[K’
+   96 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::SubCallBack(std_msgs::msg::Float32 msg_){
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:31:18:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack()[m[K’
+   31 |             void [01;36m[KSubCallBack[m[K();
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+   14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,29 @@
+[0.316s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.354s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.406s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[8.901s] [100%] [32m[1mLinking CXX shared library libmotor_gazebo_plugin.so[0m
+[9.520s] [100%] Built target motor_gazebo_plugin
+[9.529s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[9.562s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/motor_gazebo_plugin
+[9.567s] -- Install configuration: ""
+[9.567s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/library_path.sh
+[9.567s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/library_path.dsv
+[9.567s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/lib/libmotor_gazebo_plugin.so
+[9.569s] -- Set runtime path of "/home/yamashita/plugins/install/motor_gazebo_plugin/lib/libmotor_gazebo_plugin.so" to ""
+[9.569s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/motor_gazebo_plugin
+[9.569s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/motor_gazebo_plugin
+[9.570s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/ament_prefix_path.sh
+[9.570s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/ament_prefix_path.dsv
+[9.570s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/path.sh
+[9.570s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/path.dsv
+[9.571s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.bash
+[9.571s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.sh
+[9.571s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.zsh
+[9.571s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.dsv
+[9.571s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.dsv
+[9.571s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/packages/motor_gazebo_plugin
+[9.572s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[9.572s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/motor_gazebo_pluginConfig.cmake
+[9.572s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/motor_gazebo_pluginConfig-version.cmake
+[9.572s] -- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.xml
+[9.573s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/motor_gazebo_plugin

@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmotor_gazebo_plugin.so[0m
+[100%] Built target motor_gazebo_plugin
+-- Install configuration: ""
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/library_path.sh
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/library_path.dsv
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/lib/libmotor_gazebo_plugin.so
+-- Set runtime path of "/home/yamashita/plugins/install/motor_gazebo_plugin/lib/libmotor_gazebo_plugin.so" to ""
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/motor_gazebo_plugin
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/motor_gazebo_plugin
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/ament_prefix_path.sh
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/ament_prefix_path.dsv
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/path.sh
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/path.dsv
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.bash
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.sh
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.zsh
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.dsv
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.dsv
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/packages/motor_gazebo_plugin
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/motor_gazebo_pluginConfig.cmake
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/motor_gazebo_pluginConfig-version.cmake
+-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.xml

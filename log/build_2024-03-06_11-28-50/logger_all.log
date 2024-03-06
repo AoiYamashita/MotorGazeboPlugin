@@ -1,0 +1,216 @@
+[2.791s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.791s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f992dd323a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f992dd323a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f992d9cb4c0>)
+[2.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.912s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yamashita/plugins'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extension 'ignore_ament_install'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extensions ['colcon_pkg']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extension 'colcon_pkg'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extensions ['colcon_meta']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extension 'colcon_meta'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extensions ['ros']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_gazebo_plugin) by extension 'ros'
+[2.923s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_gazebo_plugin' with type 'ros.ament_cmake' and name 'motor_gazebo_plugin'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extension 'ignore'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extension 'ignore_ament_install'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extensions ['colcon_pkg']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extension 'colcon_pkg'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extensions ['colcon_meta']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extension 'colcon_meta'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extensions ['ros']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_gazebo) by extension 'ros'
+[2.924s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sample_gazebo' with type 'ros.ament_cmake' and name 'sample_gazebo'
+[2.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.271s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yamashita/plugins/install
+[3.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/yamashita/pra_plugin/install
+[3.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yamashita/gazebo_ws/install
+[3.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/yamashita/ros2_ws/install
+[3.477s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/foxy
+[3.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.631s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[3.632s] Level 5:colcon.colcon_core.verb:set package 'motor_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.632s] DEBUG:colcon.colcon_core.verb:Building package 'motor_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yamashita/plugins/build/motor_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yamashita/plugins/install/motor_gazebo_plugin', 'merge_install': False, 'path': '/home/yamashita/plugins/src/motor_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[3.680s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.680s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.680s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.680s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.680s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.680s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.680s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.681s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.681s] Level 5:colcon.colcon_core.verb:set package 'sample_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.681s] DEBUG:colcon.colcon_core.verb:Building package 'sample_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yamashita/plugins/build/sample_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yamashita/plugins/install/sample_gazebo', 'merge_install': False, 'path': '/home/yamashita/plugins/src/sample_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.734s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.793s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yamashita/plugins/src/motor_gazebo_plugin' with build type 'ament_cmake'
+[3.793s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yamashita/plugins/src/motor_gazebo_plugin'
+[3.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yamashita/plugins/src/sample_gazebo' with build type 'ament_cmake'
+[4.164s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yamashita/plugins/src/sample_gazebo'
+[4.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[4.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yamashita/plugins/build/sample_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/sample_gazebo -- -j12 -l12
+[4.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yamashita/plugins/build/sample_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/sample_gazebo -- -j12 -l12
+[4.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yamashita/plugins/build/sample_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/sample_gazebo
+[4.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sample_gazebo)
+[4.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yamashita/plugins/build/sample_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/sample_gazebo
+[4.692s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo' for CMake module files
+[4.692s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo' for CMake config files
+[4.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('sample_gazebo', 'cmake_prefix_path')
+[4.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/hook/cmake_prefix_path.ps1'
+[4.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/hook/cmake_prefix_path.dsv'
+[4.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/hook/cmake_prefix_path.sh'
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/bin'
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/lib/pkgconfig/sample_gazebo.pc'
+[4.755s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/lib/python3.8/site-packages'
+[4.755s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/bin'
+[4.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.ps1'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.dsv'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.sh'
+[4.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.bash'
+[4.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.zsh'
+[4.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yamashita/plugins/install/sample_gazebo/share/colcon-core/packages/sample_gazebo)
+[4.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sample_gazebo)
+[4.946s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo' for CMake module files
+[4.947s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo' for CMake config files
+[4.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('sample_gazebo', 'cmake_prefix_path')
+[5.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/hook/cmake_prefix_path.ps1'
+[5.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/hook/cmake_prefix_path.dsv'
+[5.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/hook/cmake_prefix_path.sh'
+[5.005s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/bin'
+[5.005s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/lib/pkgconfig/sample_gazebo.pc'
+[5.005s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/lib/python3.8/site-packages'
+[5.006s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/sample_gazebo/bin'
+[5.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.ps1'
+[5.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.dsv'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.sh'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.bash'
+[5.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.zsh'
+[5.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yamashita/plugins/install/sample_gazebo/share/colcon-core/packages/sample_gazebo)
+[15.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[15.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/motor_gazebo_plugin
+[15.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_gazebo_plugin)
+[15.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/motor_gazebo_plugin
+[15.489s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin' for CMake module files
+[15.490s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin' for CMake config files
+[15.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_gazebo_plugin', 'cmake_prefix_path')
+[15.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[15.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[15.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/cmake_prefix_path.sh'
+[15.548s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/lib'
+[15.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_gazebo_plugin', 'ld_library_path_lib')
+[15.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[15.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[15.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/ld_library_path_lib.sh'
+[15.603s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/bin'
+[15.603s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/lib/pkgconfig/motor_gazebo_plugin.pc'
+[15.603s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/lib/python3.8/site-packages'
+[15.603s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/bin'
+[15.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.ps1'
+[15.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.dsv'
+[15.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.sh'
+[15.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.bash'
+[15.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.zsh'
+[15.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yamashita/plugins/install/motor_gazebo_plugin/share/colcon-core/packages/motor_gazebo_plugin)
+[15.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_gazebo_plugin)
+[15.782s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin' for CMake module files
+[15.782s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin' for CMake config files
+[15.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_gazebo_plugin', 'cmake_prefix_path')
+[15.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[15.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[15.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/cmake_prefix_path.sh'
+[15.835s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/lib'
+[15.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_gazebo_plugin', 'ld_library_path_lib')
+[15.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[15.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[15.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/hook/ld_library_path_lib.sh'
+[15.896s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/bin'
+[15.896s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/lib/pkgconfig/motor_gazebo_plugin.pc'
+[15.896s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/lib/python3.8/site-packages'
+[15.896s] Level 1:colcon.colcon_core.environment:checking '/home/yamashita/plugins/install/motor_gazebo_plugin/bin'
+[15.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.ps1'
+[15.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.dsv'
+[15.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.sh'
+[15.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.bash'
+[15.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.zsh'
+[15.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yamashita/plugins/install/motor_gazebo_plugin/share/colcon-core/packages/motor_gazebo_plugin)
+[15.957s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.958s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.052s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.053s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.053s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.053s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.053s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[16.054s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/plugins/install/local_setup.ps1'
+[16.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yamashita/plugins/install/_local_setup_util_ps1.py'
+[16.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/plugins/install/setup.ps1'
+[16.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/plugins/install/local_setup.sh'
+[16.152s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yamashita/plugins/install/_local_setup_util_sh.py'
+[16.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/plugins/install/setup.sh'
+[16.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/plugins/install/local_setup.bash'
+[16.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/plugins/install/setup.bash'
+[16.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yamashita/plugins/install/local_setup.zsh'
+[16.251s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yamashita/plugins/install/setup.zsh'

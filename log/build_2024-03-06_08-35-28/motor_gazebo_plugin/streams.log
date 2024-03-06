@@ -1,0 +1,36 @@
+[0.339s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.380s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.429s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[4.930s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::ElementPtr[m[K’ has not been declared
+[4.931s]    51 |     void MotorGazeboPlugin::Load(gazebo::physics::ModelPtr _model, [01;31m[Kstd[m[K::ElementPtr _sdf)
+[4.931s]       |                                                                    [01;31m[K^~~[m[K
+[4.931s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:51:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, int)[m[K’
+[4.931s]    51 |     void [01;31m[KMotorGazeboPlugin[m[K::Load(gazebo::physics::ModelPtr _model, std::ElementPtr _sdf)
+[4.931s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.931s] In file included from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:7[m[K:
+[4.931s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:19:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual void gazebo::MotorGazeboPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’
+[4.931s]    19 |         void [01;36m[KLoad[m[K(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf) override;
+[4.931s]       |              [01;36m[K^~~~[m[K
+[4.931s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/include/motor_gazebo_plugin/motor_gazebo_plugin.hpp:9:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPlugin[m[K’ defined here
+[4.931s]     9 |     class [01;36m[KMotorGazeboPlugin[m[K : public gazebo::ModelPlugin
+[4.932s]       |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.932s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+[4.932s]    79 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::Onupdate(){
+[4.932s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.932s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:79:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::Onupdate()[m[K’
+[4.932s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+[4.932s]    14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+[4.932s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.932s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:96:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack(std_msgs::msg::Float32)[m[K’
+[4.932s]    96 |     void [01;31m[KMotorGazeboPluginPrivate[m[K::SubCallBack(std_msgs::msg::Float32 msg_){
+[4.932s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.932s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:31:18:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack()[m[K’
+[4.932s]    31 |             void [01;36m[KSubCallBack[m[K();
+[4.932s]       |                  [01;36m[K^~~~~~~~~~~[m[K
+[4.933s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:14:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::MotorGazeboPluginPrivate[m[K’ defined here
+[4.933s]    14 |     class [01;36m[KMotorGazeboPluginPrivate[m[K{
+[4.933s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.275s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[6.275s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[6.275s] make: *** [Makefile:141: all] Error 2
+[6.279s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12

@@ -1,0 +1,16 @@
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/world/demo_cp.world
+/home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/package_run_dependencies/sample_gazebo
+/home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/parent_prefix_path/sample_gazebo
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/ament_prefix_path.sh
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/ament_prefix_path.dsv
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/path.sh
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/path.dsv
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.bash
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.sh
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.zsh
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.dsv
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.dsv
+/home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/packages/sample_gazebo
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/cmake/sample_gazeboConfig.cmake
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/cmake/sample_gazeboConfig-version.cmake
+/home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.xml

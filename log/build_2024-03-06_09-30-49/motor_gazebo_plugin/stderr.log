@@ -1,0 +1,474 @@
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+/usr/include/c++/9/functional: In instantiation of ‘[01m[Kstd::_Bind<_Functor(_Bound_args ...)>::_Bind(_Functor&&, _Args&& ...) [with _Args = {std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >&, const boost::arg<1>&}; _Functor = void (gazebo::MotorGazeboPluginPrivate::*)(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const; _Bound_args = {std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1>}][m[K’:
+[01m[K/usr/include/c++/9/functional:811:38:[m[K   required from ‘[01m[Ktypename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (gazebo::MotorGazeboPluginPrivate::*)(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const; _BoundArgs = {std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >&, const boost::arg<1>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>][m[K’
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:164:[m[K   required from here
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::tuple<std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::tuple(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>&, const boost::arg<1>&)[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;31m[K)[m[K
+      |                                                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1199:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && (! _ImplicitlyMoveConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, std::pair<_U1, _U2>&&)[m[K’
+ 1199 |         explicit [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |                  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1199:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1189:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && _ImplicitlyMoveConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, std::pair<_U1, _U2>&&)[m[K’
+ 1189 |         [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a, pair<_U1, _U2>&& __in)
+      |         [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1189:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1179:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && (! _ImplicitlyConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, const std::pair<_U1, _U2>&)[m[K’
+ 1179 |         explicit [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |                  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1179:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1169:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && _ImplicitlyConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, const std::pair<_U1, _U2>&)[m[K’
+ 1169 |         [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |         [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1169:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1158:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && (! _ImplicitlyMoveConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, std::tuple<_U1, _U2>&&)[m[K’
+ 1158 |  explicit [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |           [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1158:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1148:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && _ImplicitlyMoveConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, std::tuple<_U1, _U2>&&)[m[K’
+ 1148 |  [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a, tuple<_U1, _U2>&& __in)
+      |  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1148:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1136:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && (! _ImplicitlyConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, const std::tuple<_U1, _U2>&)[m[K’
+ 1136 |  explicit [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |           [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1136:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1124:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && _ImplicitlyConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, const std::tuple<_U1, _U2>&)[m[K’
+ 1124 |  [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1124:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1115:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc> std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, std::tuple<_T1, _T2>&&)[m[K’
+ 1115 |  [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a, tuple&& __in)
+      |  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1115:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1111:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc> std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, const std::tuple<_T1, _T2>&)[m[K’
+ 1111 |  [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a, const tuple& __in)
+      |  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1111:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1105:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && (! _ImplicitlyMoveConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, _U1&&, _U2&&)[m[K’
+ 1105 |  explicit [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |           [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1105:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1095:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && _ImplicitlyMoveConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, _U1&&, _U2&&)[m[K’
+ 1095 |  [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a, _U1&& __a1, _U2&& __a2)
+      |  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1095:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1085:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _Dummy, typename std::enable_if<(std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ConstructibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >() && (! std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ImplicitlyConvertibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >())), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, const _T1&, const _T2&)[m[K’
+ 1085 |  explicit [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |           [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1085:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1073:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc, class _Dummy, typename std::enable_if<(std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ConstructibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >() && std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ImplicitlyConvertibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >()), bool>::type <anonymous> > std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&, const _T1&, const _T2&)[m[K’
+ 1073 |  [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a,
+      |  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1073:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1062:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Alloc> std::tuple<_T1, _T2>::tuple(std::allocator_arg_t, const _Alloc&)[m[K’
+ 1062 |  [01;36m[Ktuple[m[K(allocator_arg_t __tag, const _Alloc& __a)
+      |  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1062:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<std::unique_ptr<gazebo::MotorGazeboPluginPrivate>&>((* & __args#0))[m[K’ (type ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’) to type ‘[01m[Kstd::allocator_arg_t[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1055:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && (! _ImplicitlyMoveConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(std::pair<_U1, _U2>&&)[m[K’
+ 1055 |         explicit constexpr [01;36m[Ktuple[m[K(pair<_U1, _U2>&& __in)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1055:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1045:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && _ImplicitlyMoveConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(std::pair<_U1, _U2>&&)[m[K’
+ 1045 |         constexpr [01;36m[Ktuple[m[K(pair<_U1, _U2>&& __in)
+      |                   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1045:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1036:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && (! _ImplicitlyConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(const std::pair<_U1, _U2>&)[m[K’
+ 1036 |         explicit constexpr [01;36m[Ktuple[m[K(const pair<_U1, _U2>& __in)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1036:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1027:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && _ImplicitlyConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(const std::pair<_U1, _U2>&)[m[K’
+ 1027 |         constexpr [01;36m[Ktuple[m[K(const pair<_U1, _U2>& __in)
+      |                   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1027:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1018:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && (! _ImplicitlyMoveConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(std::tuple<_U1, _U2>&&)[m[K’
+ 1018 |         explicit constexpr [01;36m[Ktuple[m[K(tuple<_U1, _U2>&& __in)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1018:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kstd::tuple<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1009:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructibleTuple<_U1, _U2>() && _ImplicitlyMoveConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(std::tuple<_U1, _U2>&&)[m[K’
+ 1009 |         constexpr [01;36m[Ktuple[m[K(tuple<_U1, _U2>&& __in)
+      |                   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1009:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kstd::tuple<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1000:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && (! _ImplicitlyConvertibleTuple<_U1, _U2>())), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(const std::tuple<_U1, _U2>&)[m[K’
+ 1000 |         explicit constexpr [01;36m[Ktuple[m[K(const tuple<_U1, _U2>& __in)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1000:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kconst std::tuple<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:991:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructibleTuple<_U1, _U2>() && _ImplicitlyConvertibleTuple<_U1, _U2>()), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(const std::tuple<_U1, _U2>&)[m[K’
+  991 |         constexpr [01;36m[Ktuple[m[K(const tuple<_U1, _U2>& __in)
+      |                   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:991:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::unique_ptr<gazebo::MotorGazeboPluginPrivate>[m[K’ is not derived from ‘[01m[Kconst std::tuple<_T1, _T2>[m[K’
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:983:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::tuple<_T1, _T2>::tuple(std::tuple<_T1, _T2>&&) [with _T1 = std::unique_ptr<gazebo::MotorGazeboPluginPrivate>; _T2 = boost::arg<1>][m[K’
+  983 |       constexpr [01;36m[Ktuple[m[K(tuple&&) = default;
+      |                 [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:983:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/9/tuple:978:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<((_MoveConstructibleTuple<_U1, _U2>() && (! _ImplicitlyMoveConvertibleTuple<_U1, _U2>())) && (! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::allocator_arg_t>::value)), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(_U1&&, _U2&&)[m[K’
+  978 |         explicit constexpr [01;36m[Ktuple[m[K(_U1&& __a1, _U2&& __a2)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:978:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/9/tuple:977:16:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  977 |  bool>::type = [01;31m[Kfalse[m[K>
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:968:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<((_MoveConstructibleTuple<_U1, _U2>() && _ImplicitlyMoveConvertibleTuple<_U1, _U2>()) && (! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::allocator_arg_t>::value)), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(_U1&&, _U2&&)[m[K’
+  968 |         constexpr [01;36m[Ktuple[m[K(_U1&& __a1, _U2&& __a2)
+      |                   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:968:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/9/tuple:967:16:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  967 |  bool>::type = [01;31m[Ktrue[m[K>
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/c++/9/tuple:954:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dummy, typename std::enable_if<(std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ConstructibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >() && (! std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ImplicitlyConvertibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >())), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(const _T1&, const _T2&)[m[K’
+  954 |         explicit constexpr [01;36m[Ktuple[m[K(const _T1& __a1, const _T2& __a2)
+      |                            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:954:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/9/tuple:953:16:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  953 |  bool>::type = [01;31m[Kfalse[m[K>
+      |                [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:945:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dummy, typename std::enable_if<(std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ConstructibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >() && std::_TC<std::is_same<_Dummy, void>::value, std::unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, boost::arg<1> >::_ImplicitlyConvertibleTuple<unique_ptr<gazebo::MotorGazeboPluginPrivate, std::default_delete<gazebo::MotorGazeboPluginPrivate> >, arg<1> >()), bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple(const _T1&, const _T2&)[m[K’
+  945 |         constexpr [01;36m[Ktuple[m[K(const _T1& __a1, const _T2& __a2)
+      |                   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:945:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/9/tuple:944:16:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  944 |  bool>::type = [01;31m[Ktrue[m[K>
+      |                [01;31m[K^~~~[m[K
+[01m[K/usr/include/c++/9/tuple:931:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::is_default_constructible<_Tp>, std::is_default_constructible<_U2>, std::__not_<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> > > >::value, bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple()[m[K’
+  931 |  explicit constexpr [01;36m[Ktuple[m[K()
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:931:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_map.h:63[m[K,
+                 from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:21[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:918:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> > constexpr std::tuple<_T1, _T2>::tuple()[m[K’
+  918 |  constexpr [01;36m[Ktuple[m[K()
+      |            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:918:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:467:70:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+  467 |  : _M_f(std::move(__f)), _M_bound_args(std::forward<_Args>(__args)...[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/subscription_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp: In instantiation of ‘[01m[Kvoid rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = 0; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’:
+[01m[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:97:3:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:165:[m[K   required from here
+[01m[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:85:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::AnySubscriptionCallback<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >::SharedPtrCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>[m[K’} and ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’)
+   85 |     [01;31m[Kshared_ptr_callback_ = callback[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/functional:59[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/std_function.h:462:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+  462 |       [01;36m[Koperator[m[K=(const function& __x)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:462:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ to ‘[01m[Kconst std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&[m[K’
+  462 |       operator=([01;36m[Kconst function& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:480:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+  480 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:480:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ to ‘[01m[Kstd::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&&[m[K’
+  480 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:494:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}; std::nullptr_t = std::nullptr_t][m[K’
+  494 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:494:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+  494 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+      |                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:523:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<typename std::decay<_Up>::type>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+  523 |  [01;36m[Koperator[m[K=(_Functor&& __f)
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:523:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/9/bits/std_function.h: In substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = typename std::enable_if<_Cond::value, _Tp>::type [with _Cond = std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::_Callable<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>, std::__invoke_result<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>&, std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > > > >; _Tp = std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&; _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’:
+[01m[K/usr/include/c++/9/bits/std_function.h:523:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::_Requires<std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::_Callable<typename std::decay<_Tp>::type, std::__invoke_result<typename std::decay<_Tp>::type&, std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > > > >, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&> std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>&][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:85:26:[m[K   required from ‘[01m[Kvoid rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = 0; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:97:3:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:165:[m[K   required from here
+[01m[K/usr/include/c++/9/bits/std_function.h:385:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&>[m[K’
+  385 |  using [01;31m[K_Requires[m[K = typename enable_if<_Cond::value, _Tp>::type;
+      |        [01;31m[K^~~~~~~~~[m[K
+/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp: In instantiation of ‘[01m[Kvoid rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = 0; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’:
+[01m[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:97:3:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:165:[m[K   required from here
+[01m[K/usr/include/c++/9/bits/std_function.h:532:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+  532 |  [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:532:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/subscription_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:85:26:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(std::unique_ptr<gazebo::MotorGazeboPluginPrivate>, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+   85 |     [01;36m[Kshared_ptr_callback_ = callback[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

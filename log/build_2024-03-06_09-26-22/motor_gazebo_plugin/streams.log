@@ -1,0 +1,180 @@
+[0.333s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.366s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.415s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[4.750s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[4.750s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[4.750s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.751s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[4.751s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[4.751s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::SubCallBack(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.751s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:98:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpl_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmpl_[m[K’?
+[4.751s]    98 |         RCLCPP_INFO([01;31m[Kimpl_[m[K->ros_node_->get_logger(), "I heard: '%f'", msg->data);
+[4.751s]       |                     [01;31m[K^~~~~[m[K
+[4.751s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:98:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.752s]    98 |         [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard: '%f'", msg->data);
+[4.752s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.752s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:98:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.752s]    98 |         [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard: '%f'", msg->data);
+[4.752s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.752s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:98:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.752s]    98 |         [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard: '%f'", msg->data);
+[4.752s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.753s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.753s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.754s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[4.754s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[4.754s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:98:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[4.754s]    98 |         RCLCPP_INFO(impl_->ros_node_->get_logger(), "I heard: '%f'", [01;31m[Kmsg[m[K->data);
+[4.754s]       |                                                                      [01;31m[K^~~[m[K
+[4.754s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:98:70:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.754s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[4.754s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[4.754s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.755s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[4.755s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[4.755s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[4.756s]    26 | namespace [01;36m[Kmsg[m[K
+[4.756s]       |           [01;36m[K^~~[m[K
+[4.756s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.756s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.757s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[4.757s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[4.757s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[4.757s]    26 | namespace [01;36m[Kmsg[m[K
+[4.757s]       |           [01;36m[K^~~[m[K
+[4.757s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[4.757s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[4.757s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.757s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.757s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.757s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[4.757s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[4.757s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[4.757s]    26 | namespace [01;36m[Kmsg[m[K
+[4.757s]       |           [01;36m[K^~~[m[K
+[4.758s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/float32.hpp:7[m[K,
+[4.758s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:9[m[K:
+[4.758s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/float32__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[4.758s]    26 | namespace [01;36m[Kmsg[m[K
+[4.758s]       |           [01;36m[K^~~[m[K
+[5.648s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/subscription_base.hpp:29[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:26[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.650s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[5.650s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[5.650s] /opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp: In instantiation of ‘[01m[Kvoid rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = 0; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’:
+[5.650s] [01m[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:97:3:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.650s] [01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.650s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.650s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:164:[m[K   required from here
+[5.650s] [01m[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:85:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::AnySubscriptionCallback<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >::SharedPtrCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>[m[K’} and ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’)
+[5.650s]    85 |     [01;31m[Kshared_ptr_callback_ = callback[m[K;
+[5.650s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.650s] In file included from [01m[K/usr/include/c++/9/functional:59[m[K,
+[5.650s]                  from [01m[K/usr/include/boost/function.hpp:23[m[K,
+[5.650s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[5.650s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:1[m[K:
+[5.650s] [01m[K/usr/include/c++/9/bits/std_function.h:462:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+[5.651s]   462 |       [01;36m[Koperator[m[K=(const function& __x)
+[5.651s]       |       [01;36m[K^~~~~~~~[m[K
+[5.651s] [01m[K/usr/include/c++/9/bits/std_function.h:462:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ to ‘[01m[Kconst std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&[m[K’
+[5.651s]   462 |       operator=([01;36m[Kconst function& __x[m[K)
+[5.651s]       |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[5.651s] [01m[K/usr/include/c++/9/bits/std_function.h:480:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+[5.651s]   480 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+[5.651s]       |       [01;36m[K^~~~~~~~[m[K
+[5.651s] [01m[K/usr/include/c++/9/bits/std_function.h:480:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ to ‘[01m[Kstd::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&&[m[K’
+[5.651s]   480 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+[5.651s]       |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[5.651s] [01m[K/usr/include/c++/9/bits/std_function.h:494:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}; std::nullptr_t = std::nullptr_t][m[K’
+[5.651s]   494 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+[5.651s]       |       [01;36m[K^~~~~~~~[m[K
+[5.651s] [01m[K/usr/include/c++/9/bits/std_function.h:494:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[5.651s]   494 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+[5.651s]       |                 [01;36m[K^~~~~~~~~[m[K
+[5.651s] [01m[K/usr/include/c++/9/bits/std_function.h:523:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<typename std::decay<_Up>::type>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+[5.651s]   523 |  [01;36m[Koperator[m[K=(_Functor&& __f)
+[5.652s]       |  [01;36m[K^~~~~~~~[m[K
+[5.652s] [01m[K/usr/include/c++/9/bits/std_function.h:523:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.652s] /usr/include/c++/9/bits/std_function.h: In substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = typename std::enable_if<_Cond::value, _Tp>::type [with _Cond = std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::_Callable<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>, std::__invoke_result<std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>&, std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > > > >; _Tp = std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&; _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’:
+[5.652s] [01m[K/usr/include/c++/9/bits/std_function.h:523:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::_Requires<std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::_Callable<typename std::decay<_Tp>::type, std::__invoke_result<typename std::decay<_Tp>::type&, std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > > > >, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&> std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>&][m[K’
+[5.652s] [01m[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:85:26:[m[K   required from ‘[01m[Kvoid rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = 0; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’
+[5.652s] [01m[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:97:3:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.652s] [01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.652s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.652s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:164:[m[K   required from here
+[5.652s] [01m[K/usr/include/c++/9/bits/std_function.h:385:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >)>&>[m[K’
+[5.652s]   385 |  using [01;31m[K_Requires[m[K = typename enable_if<_Cond::value, _Tp>::type;
+[5.652s]       |        [01;31m[K^~~~~~~~~[m[K
+[5.652s] /opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp: In instantiation of ‘[01m[Kvoid rclcpp::AnySubscriptionCallback<MessageT, Alloc>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>)> >::value>::type* <anonymous> = 0; MessageT = std_msgs::msg::Float32_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’:
+[5.652s] [01m[K/opt/ros/foxy/include/rclcpp/subscription_factory.hpp:97:3:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT> >) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.652s] [01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:144:63:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::create_subscription(NodeT&&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node&; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.652s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:98:47:[m[K   required from ‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>; AllocatorT = std::allocator<void>; CallbackMessageT = std_msgs::msg::Float32_<std::allocator<void> >; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Float32_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.652s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:66:164:[m[K   required from here
+[5.652s] [01m[K/usr/include/c++/9/bits/std_function.h:532:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}][m[K’
+[5.652s]   532 |  [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+[5.653s]       |  [01;36m[K^~~~~~~~[m[K
+[5.653s] [01m[K/usr/include/c++/9/bits/std_function.h:532:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.653s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/subscription_base.hpp:29[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:26[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.653s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[5.653s]                  from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[5.653s] [01m[K/opt/ros/foxy/include/rclcpp/any_subscription_callback.hpp:85:26:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind<void (gazebo::MotorGazeboPluginPrivate::*(gazebo::MotorGazeboPlugin*, boost::arg<1>))(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >) const>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+[5.653s]    85 |     [01;36m[Kshared_ptr_callback_ = callback[m[K;
+[5.653s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.498s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[7.499s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[7.499s] make: *** [Makefile:141: all] Error 2
+[7.505s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
