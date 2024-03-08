@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (motor_gazebo_plugin) JobQueued: {'identifier': 'motor_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.000371] (sample_gazebo) JobQueued: {'identifier': 'sample_gazebo', 'dependencies': OrderedDict()}
+[0.000386] (motor_gazebo_plugin) JobStarted: {'identifier': 'motor_gazebo_plugin'}
+[0.100257] (-) TimerEvent: {}
+[0.202653] (-) TimerEvent: {}
+[0.306820] (-) TimerEvent: {}
+[0.408606] (-) TimerEvent: {}
+[0.430651] (sample_gazebo) JobStarted: {'identifier': 'sample_gazebo'}
+[0.513465] (-) TimerEvent: {}
+[0.616608] (-) TimerEvent: {}
+[0.725723] (-) TimerEvent: {}
+[0.840326] (-) TimerEvent: {}
+[0.873999] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'cmake'}
+[0.875505] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'build'}
+[0.875680] (motor_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamashita/plugins/build/motor_gazebo_plugin', '--', '-j12', '-l12'], 'cwd': '/home/yamashita/plugins/build/motor_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('GIT_ASKPASS', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/plugins/install/motor_gazebo_plugin/lib:/home/yamashita/pra_plugin/install/ros2_conveyorbelt/lib:/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib:/home/yamashita/pra_plugin/install/MotorPlugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/plugins/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ae18c5fb-fb09-4fac-86b2-252f221c1ff5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install:/home/yamashita/plugins/install:/home/yamashita/pra_plugin/install:/home/yamashita/gazebo_ws/install:/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/666_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a63705c025.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yamashita/plugins/build/motor_gazebo_plugin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib/python3.8/site-packages:/home/yamashita/gazebo_ws/install/ros2_first_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.880474] (sample_gazebo) JobProgress: {'identifier': 'sample_gazebo', 'progress': 'cmake'}
+[0.882729] (sample_gazebo) JobProgress: {'identifier': 'sample_gazebo', 'progress': 'build'}
+[0.882906] (sample_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamashita/plugins/build/sample_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/yamashita/plugins/build/sample_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('GIT_ASKPASS', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/plugins/install/motor_gazebo_plugin/lib:/home/yamashita/pra_plugin/install/ros2_conveyorbelt/lib:/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib:/home/yamashita/pra_plugin/install/MotorPlugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/plugins/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ae18c5fb-fb09-4fac-86b2-252f221c1ff5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install:/home/yamashita/plugins/install:/home/yamashita/pra_plugin/install:/home/yamashita/gazebo_ws/install:/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/666_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a63705c025.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yamashita/plugins/build/sample_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib/python3.8/site-packages:/home/yamashita/gazebo_ws/install/ros2_first_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.912131] (sample_gazebo) CommandEnded: {'returncode': 0}
+[0.915507] (motor_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_gazebo_plugin\x1b[0m\n'}
+[0.931357] (sample_gazebo) JobProgress: {'identifier': 'sample_gazebo', 'progress': 'install'}
+[0.939821] (sample_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yamashita/plugins/build/sample_gazebo'], 'cwd': '/home/yamashita/plugins/build/sample_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('GIT_ASKPASS', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/plugins/install/motor_gazebo_plugin/lib:/home/yamashita/pra_plugin/install/ros2_conveyorbelt/lib:/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib:/home/yamashita/pra_plugin/install/MotorPlugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/plugins/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ae18c5fb-fb09-4fac-86b2-252f221c1ff5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install:/home/yamashita/plugins/install:/home/yamashita/pra_plugin/install:/home/yamashita/gazebo_ws/install:/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/666_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a63705c025.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yamashita/plugins/build/sample_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib/python3.8/site-packages:/home/yamashita/gazebo_ws/install/ros2_first_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.942754] (-) TimerEvent: {}
+[0.945723] (sample_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.945846] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/world\n'}
+[0.945888] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/world/demo_cp.world\n'}
+[0.946252] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/launch\n'}
+[0.946567] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/launch/sample_gazebo.launch.py\n'}
+[0.946787] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/package_run_dependencies/sample_gazebo\n'}
+[0.947143] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/parent_prefix_path/sample_gazebo\n'}
+[0.947284] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/ament_prefix_path.sh\n'}
+[0.947382] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.947468] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/path.sh\n'}
+[0.947559] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/path.dsv\n'}
+[0.947918] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.bash\n'}
+[0.948181] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.sh\n'}
+[0.948532] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.zsh\n'}
+[0.948865] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.dsv\n'}
+[0.948919] (sample_gazebo) StdoutLine: {'line': b'-- Installing: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.dsv\n'}
+[0.948954] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/packages/sample_gazebo\n'}
+[0.948986] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/cmake/sample_gazeboConfig.cmake\n'}
+[0.949017] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/cmake/sample_gazeboConfig-version.cmake\n'}
+[0.949048] (sample_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.xml\n'}
+[0.951814] (sample_gazebo) CommandEnded: {'returncode': 0}
+[0.966997] (motor_gazebo_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o\x1b[0m\n'}
+[1.045281] (-) TimerEvent: {}
+[1.146753] (-) TimerEvent: {}
+[1.247607] (-) TimerEvent: {}
+[1.348247] (-) TimerEvent: {}
+[1.383177] (sample_gazebo) JobEnded: {'identifier': 'sample_gazebo', 'rc': 0}
+[1.448604] (-) TimerEvent: {}
+[1.551455] (-) TimerEvent: {}
+[1.660300] (-) TimerEvent: {}
+[1.764278] (-) TimerEvent: {}
+[1.872935] (-) TimerEvent: {}
+[1.975192] (-) TimerEvent: {}
+[2.076425] (-) TimerEvent: {}
+[2.176933] (-) TimerEvent: {}
+[2.277866] (-) TimerEvent: {}
+[2.378913] (-) TimerEvent: {}
+[2.480467] (-) TimerEvent: {}
+[2.582026] (-) TimerEvent: {}
+[2.685130] (-) TimerEvent: {}
+[2.788443] (-) TimerEvent: {}
+[2.896449] (-) TimerEvent: {}
+[2.996839] (-) TimerEvent: {}
+[3.097347] (-) TimerEvent: {}
+[3.198019] (-) TimerEvent: {}
+[3.298817] (-) TimerEvent: {}
+[3.400023] (-) TimerEvent: {}
+[3.508709] (-) TimerEvent: {}
+[3.613243] (-) TimerEvent: {}
+[3.715010] (-) TimerEvent: {}
+[3.823311] (-) TimerEvent: {}
+[3.924302] (-) TimerEvent: {}
+[4.025449] (-) TimerEvent: {}
+[4.126287] (-) TimerEvent: {}
+[4.227199] (-) TimerEvent: {}
+[4.332672] (-) TimerEvent: {}
+[4.441366] (-) TimerEvent: {}
+[4.550045] (-) TimerEvent: {}
+[4.656425] (-) TimerEvent: {}
+[4.759367] (-) TimerEvent: {}
+[4.868148] (-) TimerEvent: {}
+[4.969177] (-) TimerEvent: {}
+[5.078021] (-) TimerEvent: {}
+[5.178492] (-) TimerEvent: {}
+[5.279407] (-) TimerEvent: {}
+[5.380160] (-) TimerEvent: {}
+[5.481181] (-) TimerEvent: {}
+[5.582410] (-) TimerEvent: {}
+[5.684018] (-) TimerEvent: {}
+[5.785453] (-) TimerEvent: {}
+[5.886307] (-) TimerEvent: {}
+[5.986844] (-) TimerEvent: {}
+[6.089951] (-) TimerEvent: {}
+[6.190697] (-) TimerEvent: {}
+[6.291562] (-) TimerEvent: {}
+[6.398283] (-) TimerEvent: {}
+[6.507108] (-) TimerEvent: {}
+[6.615877] (-) TimerEvent: {}
+[6.724832] (-) TimerEvent: {}
+[6.833633] (-) TimerEvent: {}
+[6.936295] (-) TimerEvent: {}
+[7.036757] (-) TimerEvent: {}
+[7.138098] (-) TimerEvent: {}
+[7.244694] (-) TimerEvent: {}
+[7.350318] (-) TimerEvent: {}
+[7.453746] (-) TimerEvent: {}
+[7.560881] (-) TimerEvent: {}
+[7.665054] (-) TimerEvent: {}
+[7.772912] (-) TimerEvent: {}
+[7.880859] (-) TimerEvent: {}
+[7.981700] (-) TimerEvent: {}
+[8.083244] (-) TimerEvent: {}
+[8.184510] (-) TimerEvent: {}
+[8.287115] (-) TimerEvent: {}
+[8.387920] (-) TimerEvent: {}
+[8.488874] (-) TimerEvent: {}
+[8.590089] (-) TimerEvent: {}
+[8.690802] (-) TimerEvent: {}
+[8.791739] (-) TimerEvent: {}
+[8.892957] (-) TimerEvent: {}
+[8.994016] (-) TimerEvent: {}
+[9.101845] (-) TimerEvent: {}
+[9.202854] (-) TimerEvent: {}
+[9.307005] (-) TimerEvent: {}
+[9.415705] (-) TimerEvent: {}
+[9.518634] (-) TimerEvent: {}
+[9.627347] (-) TimerEvent: {}
+[9.731270] (-) TimerEvent: {}
+[9.839978] (-) TimerEvent: {}
+[9.948673] (-) TimerEvent: {}
+[10.056278] (-) TimerEvent: {}
+[10.164968] (-) TimerEvent: {}
+[10.266864] (-) TimerEvent: {}
+[10.367312] (-) TimerEvent: {}
+[10.468028] (-) TimerEvent: {}
+[10.568947] (-) TimerEvent: {}
+[10.670227] (-) TimerEvent: {}
+[10.771111] (-) TimerEvent: {}
+[10.872126] (-) TimerEvent: {}
+[10.973058] (-) TimerEvent: {}
+[11.074161] (-) TimerEvent: {}
+[11.112823] (motor_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_gazebo_plugin.so\x1b[0m\n'}
+[11.175075] (-) TimerEvent: {}
+[11.276431] (-) TimerEvent: {}
+[11.377116] (-) TimerEvent: {}
+[11.481501] (-) TimerEvent: {}
+[11.582252] (-) TimerEvent: {}
+[11.685373] (-) TimerEvent: {}
+[11.720225] (motor_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target motor_gazebo_plugin\n'}
+[11.728931] (motor_gazebo_plugin) CommandEnded: {'returncode': 0}
+[11.748697] (motor_gazebo_plugin) JobProgress: {'identifier': 'motor_gazebo_plugin', 'progress': 'install'}
+[11.750508] (motor_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yamashita/plugins/build/motor_gazebo_plugin'], 'cwd': '/home/yamashita/plugins/build/motor_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('GIT_ASKPASS', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/plugins/install/motor_gazebo_plugin/lib:/home/yamashita/pra_plugin/install/ros2_conveyorbelt/lib:/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib:/home/yamashita/pra_plugin/install/MotorPlugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/plugins/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ae18c5fb-fb09-4fac-86b2-252f221c1ff5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install:/home/yamashita/plugins/install:/home/yamashita/pra_plugin/install:/home/yamashita/gazebo_ws/install:/home/yamashita/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/666_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yamashita/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a63705c025.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yamashita/plugins/build/motor_gazebo_plugin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/pra_plugin/install/conveyorbelt_msgs/lib/python3.8/site-packages:/home/yamashita/gazebo_ws/install/ros2_first_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/auto_robot_ws/install/auto_robot_gazebo:/home/yamashita/plugins/install/sample_gazebo:/home/yamashita/plugins/install/motor_gazebo_plugin:/home/yamashita/pra_plugin/install/ros2_conveyorbelt:/home/yamashita/pra_plugin/install/conveyorbelt_msgs:/home/yamashita/pra_plugin/install/conveyorbelt_gazebo:/home/yamashita/pra_plugin/install/MotorPlugin:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[11.756651] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.756952] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/library_path.sh\n'}
+[11.757019] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/library_path.dsv\n'}
+[11.757056] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/lib/libmotor_gazebo_plugin.so\n'}
+[11.761408] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/yamashita/plugins/install/motor_gazebo_plugin/lib/libmotor_gazebo_plugin.so" to ""\n'}
+[11.761489] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/motor_gazebo_plugin\n'}
+[11.761524] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/motor_gazebo_plugin\n'}
+[11.761555] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[11.761585] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[11.761615] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/path.sh\n'}
+[11.761645] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/environment/path.dsv\n'}
+[11.761675] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.bash\n'}
+[11.761869] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.sh\n'}
+[11.762006] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.zsh\n'}
+[11.762085] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/local_setup.dsv\n'}
+[11.762157] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.dsv\n'}
+[11.762733] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/ament_index/resource_index/packages/motor_gazebo_plugin\n'}
+[11.762816] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.762875] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/motor_gazebo_pluginConfig.cmake\n'}
+[11.762916] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/cmake/motor_gazebo_pluginConfig-version.cmake\n'}
+[11.762949] (motor_gazebo_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/yamashita/plugins/install/motor_gazebo_plugin/share/motor_gazebo_plugin/package.xml\n'}
+[11.764442] (motor_gazebo_plugin) CommandEnded: {'returncode': 0}
+[11.786491] (-) TimerEvent: {}
+[11.891308] (-) TimerEvent: {}
+[11.995190] (-) TimerEvent: {}
+[12.096778] (-) TimerEvent: {}
+[12.198913] (-) TimerEvent: {}
+[12.301312] (motor_gazebo_plugin) JobEnded: {'identifier': 'motor_gazebo_plugin', 'rc': 0}
+[12.302466] (-) TimerEvent: {}
+[12.302975] (-) EventReactorShutdown: {}

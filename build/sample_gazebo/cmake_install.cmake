@@ -38,7 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sample_gazebo" TYPE DIRECTORY FILES "/home/yamashita/plugins/src/sample_gazebo/world")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sample_gazebo" TYPE DIRECTORY FILES
+    "/home/yamashita/plugins/src/sample_gazebo/world"
+    "/home/yamashita/plugins/src/sample_gazebo/launch"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

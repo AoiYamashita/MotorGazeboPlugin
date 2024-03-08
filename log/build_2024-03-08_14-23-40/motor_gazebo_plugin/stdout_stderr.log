@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::PublishStatus()[m[K’:
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:57:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgazebo::physics::JointWrench[m[K’ to ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+   99 |         status_msg_.data =  [01;31m[Kmotor_joint_->GetForceTorque(1)[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+      |                                                         [01;31m[K|[m[K
+      |                                                         [01;31m[Kgazebo::physics::JointWrench[m[K
+make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

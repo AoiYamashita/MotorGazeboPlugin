@@ -1,0 +1,11 @@
+[0.883s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.922s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.970s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[5.497s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::PublishStatus()[m[K’:
+[5.497s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:66:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kgazebo::physics::JointWrench[m[K’ to type ‘[01m[Kfloat[m[K’
+[5.498s]    99 |         status_msg_.data =  (float)motor_joint_->GetForceTorque(1[01;31m[K)[m[K;
+[5.498s]       |                                                                  [01;31m[K^[m[K
+[8.152s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[8.153s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[8.153s] make: *** [Makefile:141: all] Error 2
+[8.155s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12

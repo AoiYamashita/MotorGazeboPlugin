@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+                 from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:4[m[K:
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::PublishStatus()[m[K’:
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpl_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmpl_[m[K’?
+   99 |         RCLCPP_INFO([01;31m[Kimpl_[m[K->ros_node_->get_logger(), "publish!!!!");
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   99 |         [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "publish!!!!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   99 |         [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "publish!!!!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   99 |         [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "publish!!!!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

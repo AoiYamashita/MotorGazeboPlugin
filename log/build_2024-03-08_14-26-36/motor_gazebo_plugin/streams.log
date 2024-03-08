@@ -1,0 +1,16 @@
+[0.866s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.902s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[5.363s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::PublishStatus()[m[K’:
+[5.363s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::GetVelocity()[m[K’
+[5.363s]    99 |         status_msg_.data =  (float)motor_joint_->GetVelocity([01;31m[K)[m[K;
+[5.363s]       |                                                              [01;31m[K^[m[K
+[5.363s] In file included from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:3[m[K:
+[5.363s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:273:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual double gazebo::physics::Joint::GetVelocity(unsigned int) const[m[K’
+[5.363s]   273 |       public: virtual double [01;36m[KGetVelocity[m[K(unsigned int _index) const = 0;
+[5.363s]       |                              [01;36m[K^~~~~~~~~~~[m[K
+[5.363s] [01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:273:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[7.951s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[7.951s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[7.951s] make: *** [Makefile:141: all] Error 2
+[7.953s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12

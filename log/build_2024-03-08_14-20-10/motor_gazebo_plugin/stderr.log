@@ -1,0 +1,12 @@
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::PublishStatus()[m[K’:
+[01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:99:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo::physics::Joint::GetForceTorque()[m[K’
+   99 |         status_msg_.data =  motor_joint_->GetForceTorque([01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+In file included from [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:3[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:322:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual gazebo::physics::JointWrench gazebo::physics::Joint::GetForceTorque(unsigned int)[m[K’
+  322 |       public: virtual JointWrench [01;36m[KGetForceTorque[m[K(unsigned int _index) = 0;
+      |                                   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/physics/Joint.hh:322:35:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

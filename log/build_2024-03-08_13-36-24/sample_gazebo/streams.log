@@ -1,0 +1,24 @@
+[0.416s] Invoking command in '/home/yamashita/plugins/build/sample_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/sample_gazebo -- -j12 -l12
+[0.447s] Invoked command in '/home/yamashita/plugins/build/sample_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/sample_gazebo -- -j12 -l12
+[0.474s] Invoking command in '/home/yamashita/plugins/build/sample_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/sample_gazebo
+[0.480s] -- Install configuration: ""
+[0.480s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/world
+[0.480s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/world/demo_cp.world
+[0.480s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/launch
+[0.481s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/launch/sample_gazebo.launch.py
+[0.481s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/package_run_dependencies/sample_gazebo
+[0.481s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/parent_prefix_path/sample_gazebo
+[0.482s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/ament_prefix_path.sh
+[0.482s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/ament_prefix_path.dsv
+[0.482s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/path.sh
+[0.484s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/environment/path.dsv
+[0.484s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.bash
+[0.484s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.sh
+[0.485s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.zsh
+[0.485s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/local_setup.dsv
+[0.485s] -- Installing: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.dsv
+[0.486s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/ament_index/resource_index/packages/sample_gazebo
+[0.487s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/cmake/sample_gazeboConfig.cmake
+[0.487s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/cmake/sample_gazeboConfig-version.cmake
+[0.487s] -- Up-to-date: /home/yamashita/plugins/install/sample_gazebo/share/sample_gazebo/package.xml
+[0.487s] Invoked command in '/home/yamashita/plugins/build/sample_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/yamashita/plugins/build/sample_gazebo

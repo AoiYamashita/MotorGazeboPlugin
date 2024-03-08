@@ -1,0 +1,17 @@
+[0.899s] Invoking command in '/home/yamashita/plugins/build/motor_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12
+[0.938s] [35m[1mScanning dependencies of target motor_gazebo_plugin[0m
+[0.994s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o[0m
+[5.916s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MotorGazeboPluginPrivate::OnUpdate()[m[K’:
+[5.916s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:85:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[5.916s]    85 |         if [34m[K([m[K(now - last_publish_time_)[01;31m[K:[m[K[32m[K:[m[Knanosecond >= rclcpp::Duration(0, update_ns_)::nanosecond) {
+[5.916s]       |            [34m[K~[m[K                          [01;31m[K^[m[K[32m[K~[m[K
+[5.916s]       |                                       [32m[K)[m[K
+[5.916s] [01m[K/home/yamashita/plugins/src/motor_gazebo_plugin/src/motor_gazebo_plugin.cpp:85:18:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Krclcpp::Time::operator-(const rclcpp::Time&) const(((gazebo::MotorGazeboPluginPrivate*)this)->gazebo::MotorGazeboPluginPrivate::last_publish_time_)[m[K’ from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Kbool[m[K’
+[5.916s]    85 |         if ([01;31m[K(now - last_publish_time_)[m[K::nanosecond >= rclcpp::Duration(0, update_ns_)::nanosecond) {
+[5.916s]       |             [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.916s]       |                  [01;31m[K|[m[K
+[5.916s]       |                  [01;31m[Krclcpp::Duration[m[K
+[8.971s] make[2]: *** [CMakeFiles/motor_gazebo_plugin.dir/build.make:63: CMakeFiles/motor_gazebo_plugin.dir/src/motor_gazebo_plugin.cpp.o] Error 1
+[8.972s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/motor_gazebo_plugin.dir/all] Error 2
+[8.973s] make: *** [Makefile:141: all] Error 2
+[8.984s] Invoked command in '/home/yamashita/plugins/build/motor_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yamashita/gazebo_ws/install/ros2_first_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/yamashita/plugins/build/motor_gazebo_plugin -- -j12 -l12

@@ -30,8 +30,8 @@ namespace gazebo{
 
             // WORLD UPDATE event:
             void OnUpdate();
-            rclcpp::Time last_publish_time_;
-            int update_ns_;
+            double last_publish_time_;
+            double update_s_;
             gazebo::event::ConnectionPtr update_connection_;  // Connection to world update event. Callback is called while this is alive.
     };
     
@@ -48,7 +48,7 @@ namespace gazebo{
     {
         impl_->ros_node_ = gazebo_ros::Node::Get(_sdf);
 
-        impl_->motor_joint_ = _model->GetJoint("motor_joint");
+        impl_->motor_joint_ = _model->GetJoint(_sdf->GetElement("motor_joint")->Get<std::string>());
 
         if(!impl_->motor_joint_){
             RCLCPP_ERROR(impl_->ros_node_->get_logger(), "Motor joint not found, unable to start Motor plugin.");
@@ -63,9 +63,9 @@ namespace gazebo{
         impl_->msg_sub_ = impl_->ros_node_->create_subscription<std_msgs::msg::Float32>("/motor/speed",10,std::bind(&MotorGazeboPlugin::SubCallBack,this,std::placeholders::_1));
 
         double publish_rate = _sdf->GetElement("publish_rate")->Get<double>();
-        impl_->update_ns_ = int((1/publish_rate) * 1e9);
+        impl_->update_s_ = (1/publish_rate);
 
-        impl_->last_publish_time_ = impl_->ros_node_->get_clock()->now();
+        impl_->last_publish_time_ = 0;
 
         impl_->update_connection_ = gazebo::event::Events::ConnectWorldUpdateBegin(std::bind(&MotorGazeboPluginPrivate::OnUpdate, impl_.get()));
 
@@ -80,12 +80,12 @@ namespace gazebo{
         if (motor_position >= 100){
             motor_joint_->SetPosition(0, 0);
         }
-
+        PublishStatus();
         // Publish status at rate
         rclcpp::Time now = ros_node_->get_clock()->now();
-        if (now - last_publish_time_ >= rclcpp::Duration(0, update_ns_)) {
-            PublishStatus();
-            last_publish_time_ = now;
+        if (now.seconds() - last_publish_time_ >= update_s_) {
+            
+            last_publish_time_ = now.seconds();
         }
     }
 
@@ -96,7 +96,6 @@ namespace gazebo{
     }
 
     void MotorGazeboPluginPrivate::PublishStatus(){
-
         status_pub_->publish(status_msg_);
     }
     GZ_REGISTER_MODEL_PLUGIN(MotorGazeboPlugin)

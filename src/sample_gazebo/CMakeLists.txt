@@ -35,6 +35,7 @@ endif()
 install(
   DIRECTORY 
     world
+    launch
   DESTINATION 
     share/${PROJECT_NAME}
 )
